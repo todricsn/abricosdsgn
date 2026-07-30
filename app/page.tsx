@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useState } from "react";
+import { ArrowMark, Logo } from "./components/Brand";
 
 const services = [
   {
@@ -119,21 +120,6 @@ const faqs = [
   },
 ];
 
-function Logo() {
-  return (
-    <span className="logo" aria-label="Abricos Design">
-      <span className="logo__word">
-        abric<span className="logo__fruit">o</span>s
-      </span>
-      <span className="logo__sub">design</span>
-    </span>
-  );
-}
-
-function ArrowMark() {
-  return <span className="arrow-mark" aria-hidden="true" />;
-}
-
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
@@ -197,6 +183,7 @@ export default function Home() {
         </button>
         <nav id="main-navigation" className={`site-nav ${menuOpen ? "site-nav--open" : ""}`} aria-label="Основная навигация">
           <a href="#services" onClick={closeMenu}>Услуги</a>
+          <a href="/portfolio" onClick={closeMenu}>Портфолио</a>
           <a href="#directions" onClick={closeMenu}>Направления</a>
           <a href="#process" onClick={closeMenu}>Этапы</a>
           <a href="#faq" onClick={closeMenu}>FAQ</a>
@@ -237,9 +224,6 @@ export default function Home() {
           <div className="hero__note">
             <span>От идеи</span>
             <strong>до открытия</strong>
-          </div>
-          <div className="hero__orbit" aria-hidden="true">
-            <span />
           </div>
         </div>
 
@@ -383,8 +367,8 @@ export default function Home() {
           <p>
             В архиве Abricos Design — проекты общественных и коммерческих пространств, 3D-моделирование, торговые точки, стенды и графическое оформление.
           </p>
-          <a className="button button--outline" href="https://freelance.ru/Abricos_design" target="_blank" rel="noreferrer">
-            Открыть архив работ
+          <a className="button button--outline" href="/portfolio">
+            Смотреть портфолио
             <ArrowMark />
           </a>
         </div>
