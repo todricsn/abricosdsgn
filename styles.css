@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 :root {
   --forest: #1e3029;
   --forest-deep: #16251f;
@@ -130,13 +128,13 @@ em {
   background: var(--forest);
 }
 
-[data-reveal] {
+.js [data-reveal] {
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 650ms ease, transform 650ms ease;
 }
 
-[data-reveal].is-visible {
+.js [data-reveal].is-visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1292,20 +1290,12 @@ button:hover > .arrow-mark {
   display: block;
 }
 
-.portfolio-card--featured {
-  grid-column: 1 / -1;
-}
-
 .portfolio-card__image {
   position: relative;
   overflow: hidden;
   aspect-ratio: 1.22;
   border-radius: var(--radius);
   background: var(--oat);
-}
-
-.portfolio-card--featured .portfolio-card__image {
-  aspect-ratio: 1.85;
 }
 
 .portfolio-card__image img {
@@ -1369,10 +1359,6 @@ button:hover > .arrow-mark {
   font-weight: 800;
   letter-spacing: -0.055em;
   line-height: 0.96;
-}
-
-.portfolio-card--featured .portfolio-card__meta h2 {
-  font-size: clamp(2.2rem, 4.5vw, 5rem);
 }
 
 .portfolio-cta {
@@ -1803,12 +1789,7 @@ button:hover > .arrow-mark {
     gap: 48px;
   }
 
-  .portfolio-card--featured {
-    grid-column: auto;
-  }
-
-  .portfolio-card__image,
-  .portfolio-card--featured .portfolio-card__image {
+  .portfolio-card__image {
     aspect-ratio: 1.15;
   }
 
@@ -1846,7 +1827,7 @@ button:hover > .arrow-mark {
     transition-duration: 0.01ms !important;
   }
 
-  [data-reveal] {
+  .js [data-reveal] {
     opacity: 1;
     transform: none;
   }
