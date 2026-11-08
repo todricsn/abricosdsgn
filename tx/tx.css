@@ -41,3 +41,23 @@ footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-sta
 .workflow li{min-height:120px;padding-bottom:16px;margin-bottom:12px;gap:20px}
 .workflow li:not(:last-child):after{left:36px;top:106px;height:30px}
 @media(max-width:600px){.workflow-icon{flex-basis:60px;width:60px;height:100px}.workflow li{gap:16px;min-height:110px}.workflow li:not(:last-child):after{left:30px;top:94px;height:24px}}
+
+/* Subtle section differences within one restrained business style. */
+#services .services{display:grid;grid-template-columns:1fr;border-top:0;gap:0 40px}
+#services .services details{border-top:1px solid var(--line);border-bottom:0}
+#services .services summary{padding-block:22px}
+#services .services h3{font-size:20px;line-height:1.35}
+#services .services details p{font-weight:400;line-height:1.6}
+#scope{background:#f5f7fa;border-top:1px solid #e5e9ee;border-bottom:1px solid #e5e9ee}
+#scope .scope dl>div{display:grid;gap:8px;border-top:0;border-bottom:1px solid var(--line);padding:20px 0}
+#scope dt{font-size:18px;font-weight:600}
+#scope dd{font-size:15px;font-weight:400;line-height:1.6;margin:0}
+.faq details{background:#fff;padding-inline:20px;margin-bottom:12px;border:1px solid var(--line)}
+.faq summary{font-size:18px;padding-block:20px}
+.faq summary:after{top:20px}
+.faq details p{font-weight:400;line-height:1.6}
+.contact{border-top:3px solid var(--blue);padding-top:40px;margin-top:40px;margin-bottom:40px}
+.contact-links{border-left:1px solid var(--line);padding-left:28px}
+.contact .lead{font-size:17px;font-weight:400;line-height:1.6}
+@media(min-width:900px){#services .services{grid-template-columns:repeat(2,minmax(0,1fr))}#services .services details:last-child{grid-column:1/-1}#scope .scope dl>div{grid-template-columns:1fr 1.25fr;gap:24px}}
+@media(max-width:767px){.contact-links{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.contact{margin-top:24px;margin-bottom:24px}}
