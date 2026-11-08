@@ -13,7 +13,7 @@
   --light-line: rgba(255, 255, 255, 0.22);
   --radius: 4px;
   --page: min(1280px, calc(100vw - 48px));
-  --font-grotesk: -apple-system, system-ui, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  --font-grotesk: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * {
