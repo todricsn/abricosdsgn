@@ -35,24 +35,33 @@
     });
   });
 
-  const revealElements = document.querySelectorAll("[data-reveal]");
-
+  const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const animateImages = (targets) => {
+    if (motionPreference.matches || !window.anime) return;
+    window.anime.animate(targets, {
+      translateY: [12, 0],
+      duration: 400,
+      ease: "outExpo",
+    });
+  };
   if ("IntersectionObserver" in window) {
-    const revealObserver = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        });
-      },
-      { threshold: 0.12 },
-    );
-
-    revealElements.forEach((element) => revealObserver.observe(element));
-  } else {
-    revealElements.forEach((element) => element.classList.add("is-visible"));
+    const images = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        animateImages(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll(".hero__visual, .direction-card img, .archive__project img")
+      .forEach((element) => images.observe(element));
   }
+  motionPreference.addEventListener("change", () => {
+    if (motionPreference.matches && window.anime) {
+      const targets = document.querySelectorAll(".hero__visual, .direction-card img, .archive__project img, .portfolio-card");
+      window.anime.utils.remove(targets);
+      targets.forEach((element) => element.style.removeProperty("transform"));
+    }
+  });
 
   const faqItems = [...document.querySelectorAll(".faq-item")];
 
@@ -131,6 +140,7 @@
       });
 
       filterProjects(button.dataset.filter || "Все");
+      animateImages(projectCards.filter((card) => !card.hidden));
     });
   });
 
