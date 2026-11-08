@@ -261,41 +261,7 @@ em {
   background: var(--sand);
 }
 
-.arrow-mark {
-  position: relative;
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 23px;
-  height: 10px;
-  transition: transform 220ms ease;
-}
 
-.arrow-mark::before {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 21px;
-  height: 1px;
-  content: "";
-  background: currentColor;
-}
-
-.arrow-mark::after {
-  position: absolute;
-  top: 2px;
-  right: 0;
-  width: 6px;
-  height: 6px;
-  content: "";
-  border-top: 1px solid currentColor;
-  border-right: 1px solid currentColor;
-  transform: rotate(45deg);
-}
-
-a:hover > .arrow-mark,
-button:hover > .arrow-mark {
-  transform: translateX(4px);
-}
 
 .menu-toggle {
   display: none;

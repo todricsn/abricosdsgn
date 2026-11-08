@@ -120,3 +120,25 @@ p { overflow-wrap: break-word; }
 .hero__visual { animation: none; }
 [hidden] { display: none !important; }
 .skip-link:not(:focus) { clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; padding: 0; }
+
+/* UIkit controls in the approved brand colours. */
+.uk-button { font-family: inherit; text-transform: none; font-size: 14px; font-weight: 600; line-height: 1.4; min-height: 48px; padding: 12px 24px; display: inline-flex; align-items: center; justify-content: center; gap: 0; border-radius: 3px; }
+.uk-button-primary { color: #fff; background: var(--accent); border: 1px solid var(--accent); }
+.uk-button-primary:hover,.uk-button-primary:focus { color: #fff; background: #18478e; }
+.uk-button-default,.text-link,.text-link--light { color: var(--accent); background: transparent; border: 1px solid var(--rule); }
+.uk-button-default:hover,.uk-button-default:focus { color: #18478e; background: var(--surface); border-color: #aebbc9; }
+.brief-form .uk-input,.brief-form .uk-textarea { border: 1px solid #c4ced9; border-radius: 3px; padding: 12px; color: var(--text); background: #fff; height: auto; }
+.brief-form .uk-input:focus,.brief-form .uk-textarea:focus { border-color: var(--accent); outline: 2px solid #235db533; outline-offset: 2px; }
+.portfolio-card__open { width: auto; height: auto; padding: 10px 14px; min-height: 44px; font-size: 12px; }
+.hero__types { display: flex; flex-wrap: nowrap; justify-content: space-between; padding: 12px 24px; gap: 24px; overflow: hidden; }
+.types-window { overflow: hidden; min-width: 0; flex: 1; }
+.types-track { display: flex; width: max-content; animation: types-scroll 32s linear infinite; }
+.types-group { display: flex; flex: none; align-items: center; justify-content: space-around; gap: 64px; min-width: max(1100px, calc(100vw - 180px)); padding-right: 64px; }
+.hero__types .types-group span { display: block; white-space: nowrap; font-size: 12px; letter-spacing: .12em; }
+.types-pause.uk-button { flex: none; min-height: 44px; font-size: 12px; padding: 8px 12px; }
+.hero__types:hover .types-track,.hero__types:focus-within .types-track,.hero__types.is-paused .types-track { animation-play-state: paused; }
+@keyframes types-scroll { to { transform: translateX(-50%); } }
+@media(prefers-reduced-motion: reduce) { .types-track { animation: none; width: auto; } .types-group { min-width: 0; flex-wrap: wrap; gap: 12px 24px; padding: 0; justify-content: flex-start; } .types-group[aria-hidden],.types-pause { display: none; } }
+
+h1,h2,h3,h4 { font-family: inherit; color: inherit; }
+a:hover { text-decoration: none; }

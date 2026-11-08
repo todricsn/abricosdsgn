@@ -1,4 +1,14 @@
 (() => {
+  const strip = document.querySelector(".hero__types");
+  const pauseButton = document.querySelector(".types-pause");
+  pauseButton?.addEventListener("click", () => {
+    const paused = pauseButton.getAttribute("aria-pressed") !== "true";
+    pauseButton.setAttribute("aria-pressed", String(paused));
+    pauseButton.setAttribute("aria-label", paused ? "Продолжить движение направлений" : "Остановить движение направлений");
+    pauseButton.textContent = paused ? "Продолжить" : "Пауза";
+    strip.classList.toggle("is-paused", paused);
+  });
+
   const homeHeader = document.querySelector(".site-header:not(.portfolio-site-header)");
 
   if (homeHeader) {
