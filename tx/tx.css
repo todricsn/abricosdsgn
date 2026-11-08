@@ -61,3 +61,17 @@ footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-sta
 .contact .lead{font-size:17px;font-weight:400;line-height:1.6}
 @media(min-width:900px){#services .services{grid-template-columns:repeat(2,minmax(0,1fr))}#services .services details:last-child{grid-column:1/-1}#scope .scope dl>div{grid-template-columns:1fr 1.25fr;gap:24px}}
 @media(max-width:767px){.contact-links{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.contact{margin-top:24px;margin-bottom:24px}}
+
+/* Distinct opening sections without changing the business tone. */
+.reference-hero>div>p:first-of-type{border-left:3px solid var(--blue);padding:8px 0 8px 16px;margin-bottom:20px;color:var(--ink);font-size:16px}
+.reference-hero figure{border-bottom:3px solid #70b9d3;padding-bottom:12px}
+.reference-hero figure img{aspect-ratio:1.18;object-fit:cover}
+.reference-work{border-top:1px solid var(--line);padding-top:36px}
+.reference-work>div:first-child{background:#f5f7fa;padding:28px}
+.reference-work h2{font-size:26px}
+.reference-work .workflow li{font-size:18px;gap:16px}
+.reference-work .project-caption{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid #70b9d3;padding:24px}
+.reference-work .project-caption h3{color:var(--ink)}
+.reference-work .project-caption p,.reference-work .project-caption small{color:var(--muted)}
+@media(min-width:900px){.reference-hero{grid-template-columns:1.12fr 1fr;gap:56px}.reference-work{grid-template-columns:1fr 1.12fr;gap:40px}.reference-work .project-preview{padding-top:28px}}
+@media(max-width:600px){.reference-work>div:first-child{padding:24px 20px}.reference-work h2{font-size:24px}.reference-work .workflow li{font-size:17px;gap:12px}}
