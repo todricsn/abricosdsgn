@@ -161,3 +161,7 @@ h1,h2,h3,h4,h2 em,.hero h1,.hero h1 span,.portfolio-hero h1,.portfolio-hero h1 s
 .service-row__body { padding-right: 24px; }
 @media(hover:hover) { .service-row summary:hover { background: #f7f7f8; } .portfolio-card:hover .portfolio-card__image img { transform: scale(1.02); } }
 @media(prefers-reduced-motion: no-preference) { .service-row[open] .service-row__body { animation: service-open 250ms var(--ease); } @keyframes service-open { from { transform: translateY(6px); } to { transform: translateY(0); } } }
+
+/* Keep the motion control available from the keyboard without a permanent badge. */
+.types-pause.uk-button { position: absolute; width: 1px; height: 1px; min-height: 0; padding: 0; overflow: hidden; clip-path: inset(50%); border: 0; }
+.types-pause.uk-button:focus-visible { position: static; width: auto; height: auto; min-height: 44px; padding: 8px 12px; clip-path: none; border: 1px solid var(--rule); }
