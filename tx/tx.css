@@ -75,3 +75,32 @@ footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-sta
 .reference-work .project-caption p,.reference-work .project-caption small{color:var(--muted)}
 @media(min-width:900px){.reference-hero{grid-template-columns:1.12fr 1fr;gap:56px}.reference-work{grid-template-columns:1fr 1.12fr;gap:40px}.reference-work .project-preview{padding-top:28px}}
 @media(max-width:600px){.reference-work>div:first-child{padding:24px 20px}.reference-work h2{font-size:24px}.reference-work .workflow li{font-size:17px;gap:12px}}
+
+/* Local option 1: wide architectural image and horizontal project stages. */
+.reference-hero{display:flex;flex-direction:column;gap:28px;padding-block:48px}
+.opening-heading{display:grid;grid-template-columns:1fr;gap:24px}
+.reference-hero .opening-label{font-size:12px;font-weight:500;color:var(--muted);margin:0 0 16px;border:0;padding:0}
+.reference-hero h1{font-size:clamp(30px,3.4vw,46px);line-height:1.2;margin:0;letter-spacing:-.025em;font-weight:500}
+.reference-hero .opening-heading>div>p{font-size:16px;line-height:1.6;font-weight:400;margin-bottom:16px}
+.reference-hero .opening-heading>div>p:first-child{font-size:18px;font-weight:500}
+.reference-hero .opening-heading .opening-label:first-child{font-size:12px}
+.reference-hero figure{width:100%;border:0;padding:0}
+.reference-hero figure img{display:block;width:100%;height:280px;max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center 60%}
+.opening-directions{display:grid;grid-template-columns:1fr;gap:20px;border-bottom:1px solid var(--line);padding-bottom:32px}
+.opening-directions h2{font-size:20px;margin:0}
+.opening-directions ul{list-style:none;padding:0;margin:0;display:grid;gap:12px;font-size:15px;font-weight:500}
+.opening-directions>a{font-size:14px;color:var(--blue);text-decoration:underline;text-underline-offset:5px;align-self:end}
+.reference-work{display:block;padding-top:32px;border:0}
+.reference-work>div:first-child{background:none;padding:0}
+.reference-work h2{font-size:28px;margin-bottom:32px}
+.reference-work .workflow{display:grid;grid-template-columns:1fr;gap:0 24px}
+.reference-work .workflow li{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;font-size:17px;line-height:1.4;gap:16px;border-top:1px solid var(--line);padding:12px 0;margin:0;min-height:120px}
+.reference-work .workflow li:after{display:none}
+.reference-work .workflow-icon{flex:none;width:64px;height:107px}
+.reference-work .project-preview{display:grid;grid-template-columns:1fr;padding-top:40px;gap:0}
+.reference-work .project-heading{grid-column:1/-1;align-items:center;margin-bottom:24px}
+.reference-work .project-heading h2{margin:0}
+.reference-work .project-preview>img{height:300px;aspect-ratio:auto;object-fit:cover;object-position:center}
+.reference-work .project-caption{display:flex;flex-direction:column;justify-content:center;border:0;background:#f5f7fa;padding:28px}
+@media(min-width:768px){.opening-heading{grid-template-columns:1.2fr 1fr;gap:64px;align-items:center}.reference-hero figure img{height:360px}.opening-directions{grid-template-columns:.7fr 1.6fr 1fr;gap:32px;align-items:start}.opening-directions ul{grid-template-columns:1fr 1fr;gap:16px 24px}.reference-work .workflow{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}.reference-work .workflow li{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;font-size:16px;gap:4px;padding-top:8px;min-height:190px}.reference-work .project-preview{grid-template-columns:1.4fr 1fr}.reference-work .project-preview>img{height:360px}.reference-work .project-caption{padding:36px}}
+@media(min-width:1100px){.reference-hero{padding-top:64px;gap:36px}.reference-hero figure img{height:400px}.reference-work .workflow li{font-size:18px}.reference-work .project-preview>img{height:400px}}
