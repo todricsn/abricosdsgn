@@ -2,7 +2,7 @@
   --forest: #233449;
   --forest-deep: #182b40;
   --moss: #606c38;
-  --sage: #8b9d83;
+  --sage: #627185;
   --sage-soft: #b7c2ad;
   --sand: #ffffff;
   --oat: #eef2f6;
@@ -167,7 +167,7 @@ em {
   height: 0.12em;
   content: "";
   border-radius: 100%;
-  background: var(--sage);
+  background: #f5f7fa;
   transform: rotate(-28deg);
 }
 
@@ -891,7 +891,7 @@ button:hover > .arrow-mark {
   min-height: 840px;
   padding: 110px max(24px, calc((100vw - 1280px) / 2));
   gap: clamp(50px, 8vw, 120px);
-  background: var(--sage);
+  background: #f5f7fa;
 }
 
 .archive__collage {
@@ -1902,3 +1902,6 @@ h1, .hero h1, .portfolio-hero h1 { font-weight: 400; }
 .brief-form input::placeholder, .brief-form textarea::placeholder { color: #627185; }
 .brief-form__note { color: #536477; }
 .footer > p, .footer__bottom { color: #c1cbd6; }
+
+.archive__copy > p { color: #536477; }
+.portfolio-card__open { color: #fff; }
