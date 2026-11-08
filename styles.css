@@ -1889,3 +1889,6 @@ h2 em { font-style: normal; }
 .logo__sub { color: inherit; align-self: start; margin-top: 5px; font-size: 9px; letter-spacing: 0.3em; }
 h1, .hero h1, .portfolio-hero h1 { font-weight: 400; }
 .eyebrow { letter-spacing: 0.06em; }
+
+.brand-logo { width: 180px; height: auto; display: block; }
+.footer .brand-logo { background: #fff; border-radius: 3px; padding: 8px; }
