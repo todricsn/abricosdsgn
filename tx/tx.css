@@ -35,3 +35,9 @@ h2{font-size:28px;font-weight:600;letter-spacing:normal}
 footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-start}
 @media(min-width:900px){.reference-hero{grid-template-columns:1.05fr 1fr;gap:48px;align-items:start}.reference-work{grid-template-columns:1fr 1.05fr;gap:64px}}
 @media(max-width:600px){.wrap{width:calc(100% - 40px)}.reference-hero h1,.reference-work h2{font-size:25px}.reference-hero figure img{height:auto}.workflow li{font-size:18px}.brand img{width:150px}}
+
+.workflow-icon{display:block;flex:0 0 72px;width:72px;height:120px;background-image:url('images/workflow.png');background-repeat:no-repeat;background-size:500% 100%;}
+.workflow-icon--1{background-position:0 0}.workflow-icon--2{background-position:25% 0}.workflow-icon--3{background-position:50% 0}.workflow-icon--4{background-position:75% 0}.workflow-icon--5{background-position:100% 0}
+.workflow li{min-height:120px;padding-bottom:16px;margin-bottom:12px;gap:20px}
+.workflow li:not(:last-child):after{left:36px;top:106px;height:30px}
+@media(max-width:600px){.workflow-icon{flex-basis:60px;width:60px;height:100px}.workflow li{gap:16px;min-height:110px}.workflow li:not(:last-child):after{left:30px;top:94px;height:24px}}
