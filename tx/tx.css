@@ -81,6 +81,7 @@ footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-sta
 .opening-heading{display:grid;grid-template-columns:1fr;gap:24px}
 .reference-hero .opening-label{font-size:12px;font-weight:500;color:var(--muted);margin:0 0 16px;border:0;padding:0}
 .reference-hero h1{font-size:clamp(30px,3.4vw,46px);line-height:1.2;margin:0;letter-spacing:-.025em;font-weight:500}
+.reference-hero .opening-heading .uk-button-primary{min-height:56px;padding:16px 28px;font-size:16px;font-weight:600}
 .reference-hero .opening-heading>div>p{font-size:16px;line-height:1.6;font-weight:400;margin-bottom:16px}
 .reference-hero .opening-heading>div>p:first-child{font-size:18px;font-weight:500}
 .reference-hero .opening-heading .opening-label:first-child{font-size:12px}
