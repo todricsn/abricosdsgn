@@ -114,3 +114,13 @@ footer .brand{display:block;background:#fff;padding:8px 12px;align-self:flex-sta
 @media(min-width:1100px){.reference-hero{padding-top:64px;gap:36px}.reference-hero figure img{height:320px}.reference-work .workflow li{font-size:18px}.reference-work .project-preview>img{height:400px}}
 
 @media(min-width:1024px){.opening-directions{grid-template-columns:1fr 2.6fr;gap:40px}.directions-intro{flex-direction:column;align-items:flex-start;justify-content:space-between;border-right:1px solid var(--line);padding-right:24px}}
+
+.services .service-scope{margin:0;padding:0 0 28px 64px;color:var(--muted);font-size:15px;font-weight:400;line-height:1.6;list-style:disc}
+.services .service-scope li{margin:0 0 8px;padding:0}
+.services .service-scope li:last-child{margin-bottom:0}
+.services .service-scope li::marker{color:var(--blue)}
+.services details>p{padding-bottom:16px}
+.services details>p:last-child{padding-bottom:28px}
+.reference-work .workflow li{align-items:start;row-gap:4px}
+.reference-work .workflow-icon{grid-row:span 2}
+.reference-work .workflow li>p{grid-column:2;margin:8px 0 0;color:var(--muted);font-size:14px;font-weight:400;line-height:1.55}
