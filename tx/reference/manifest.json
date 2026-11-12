@@ -1,0 +1,897 @@
+{
+  "source_page": "https://npopis.ru/tekhnologicheskiye-resheniya/",
+  "stylesheets": [
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/rdev.css",
+      "local": "css/rdev.css",
+      "id": "rdev-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+      "local": "css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+      "id": "contact-form-7-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada/assets/css/style.min.css",
+      "local": "css/style.min.css",
+      "id": "avada-stylesheet-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+      "local": "css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+      "id": "child-style-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/plugins/fusion-builder/css/fusion-shortcodes.min.css",
+      "local": "css/fusion-shortcodes.min.css",
+      "id": "fusion-builder-shortcodes-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css",
+      "local": "css/jquery.fancybox.min.css",
+      "id": "fancybox-css",
+      "media": "screen"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/js/swiper/swiper-bundle.min.css",
+      "local": "css/swiper-bundle.min.css",
+      "id": "swiper-css-css",
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/libs.min.css",
+      "local": "css/libs.min.css",
+      "id": null,
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/main.min.css?v=1.44",
+      "local": "css/main.min.css",
+      "id": null,
+      "media": "all"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/lightbox.min.css",
+      "local": "css/lightbox.min.css",
+      "id": "lightbox-css",
+      "media": "all"
+    }
+  ],
+  "assets": {
+    "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css": "css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+    "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css": "css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+    "https://npopis.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css": "css/jquery.fancybox.min.css",
+    "https://npopis.ru/wp-content/plugins/fusion-builder/css/fusion-shortcodes.min.css": "css/fusion-shortcodes.min.css",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/libs.min.css": "css/libs.min.css",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/lightbox.min.css": "css/lightbox.min.css",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/main.min.css?v=1.44": "css/main.min.css",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/rdev.css": "css/rdev.css",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/Arrow.svg": "media/Arrow-d9648f4a.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/about-company-background.jpg": "media/about-company-background-67979a64.jpg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/arrowleft.png": "media/arrowleft-8bed9b26.png",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/arrowright.png": "media/arrowright-91aaa593.png",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/background-contacts.jpg": "media/background-contacts-61f3594b.jpg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/background-home.jpg": "media/background-home-04d0aff3.jpg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/bg_services.jpg": "media/bg_services-a147d98d.jpg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/bg_services_2.jpg": "media/bg_services_2-655967e0.jpg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/cancel-modal.svg": "media/cancel-modal-317f739e.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/check.svg": "media/check-c319acf9.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/close-123.png": "media/close-123-67990e5f.png",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/email.svg": "media/email-8539e5a6.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-adress.svg": "media/icon-adress-3107b03a.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-max.svg": "media/icon-blue-max-4d51c915.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-search.svg": "media/icon-blue-search-b67983c1.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-telegramm.svg": "media/icon-blue-telegramm-d95a0f0a.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-tw.svg": "media/icon-blue-tw-91446ecd.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-whatsapp.svg": "media/icon-blue-whatsapp-541b1d6f.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-chat.svg": "media/icon-chat-768098af.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-email.svg": "media/icon-email-93682dd7.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-handshake.svg": "media/icon-handshake-21bf758d.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-hh.svg": "media/icon-hh-14992565.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-max-colored.svg": "media/icon-max-colored-9f19f903.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-max.svg": "media/icon-max-ee984559.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-telegramm.svg": "media/icon-telegramm-c55ec9e0.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-telephone.svg": "media/icon-telephone-fec09db2.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-watsapp.svg": "media/icon-watsapp-51ddbdb3.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/loading.gif": "media/loading-3bb9f540.gif",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/phone-call.svg": "media/phone-call-655c1c06.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/plus.png": "media/plus-3112549c.png",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/zkaz.svg": "media/zkaz-e2089e62.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/zkaz2.svg": "media/zkaz2-98c192c9.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/js/swiper/swiper-bundle.min.css": "css/swiper-bundle.min.css",
+    "https://npopis.ru/wp-content/themes/Avada/assets/css/style.min.css": "css/style.min.css",
+    "https://npopis.ru/wp-content/themes/Avada/assets/images/shadow-bottom.png": "media/shadow-bottom-7cb75186.png",
+    "https://npopis.ru/wp-content/themes/Avada/assets/images/shadow-top.png": "media/shadow-top-8e01c4d4.png",
+    "https://npopis.ru/wp-content/uploads/2019/07/about-company-backgraund.png": "media/about-company-backgraund-47c79280.png",
+    "https://npopis.ru/wp-content/uploads/2019/07/footer-backgraund.jpg": "media/footer-backgraund-a5e13271.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/1.-Etalon-Proekt-226x72.jpg": "media/1.-Etalon-Proekt-226x72-480fa35d.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/10.-buromoscow-2.png": "media/10.-buromoscow-2-81949909.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/11.-Ai-Arhiteks-2-226x175.png": "media/11.-Ai-Arhiteks-2-226x175-d19bae38.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/12.-Donstroĭ-226x228.jpg": "media/12.-Donstroi--226x228-6962dfb0.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/13.-DSK1-226x226.jpg": "media/13.-DSK1-226x226-b36903a2.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/14.-MPK-226x58.png": "media/14.-MPK-226x58-83e6b760.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/15.-Ostozhenka-226x194.jpg": "media/15.-Ostozhenka-226x194-5a7fae66.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/16.-FSK-226x181.jpg": "media/16.-FSK-226x181-b6bbf5bb.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/17.-Rezerv-226x68.jpg": "media/17.-Rezerv-226x68-35dcca38.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/18.-AIK-DPM-226x159.jpg": "media/18.-AIK-DPM-226x159-de9d8c9f.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/19.-Inzhenernoe-delo-226x192.png": "media/19.-Inzhenernoe-delo-226x192-ddb5b29d.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/2.-CZimaĭlo-Lyashenko-i-partnery-3-226x226.jpg": "media/2.-CZimai-lo-Lyashenko-i-partnery-3-226x226-b767f4dd.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/20.-Aktika-SV-Proekt-226x45.png": "media/20.-Aktika-SV-Proekt-226x45-efb88b4a.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/21.-KTB-ZHB-226x226.jpg": "media/21.-KTB-ZHB-226x226-4703a254.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/22.-Atrium-226x38.jpg": "media/22.-Atrium-226x38-eb439be1.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/23.-Smart-Proekt-226x60.png": "media/23.-Smart-Proekt-226x60-47539132.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/24.-Finproekt-226x65.jpg": "media/24.-Finproekt-226x65-eaf37d53.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/25.-Metropolis-226x74.png": "media/25.-Metropolis-226x74-3fb76318.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/26.-Atlas-Proekt-226x226.jpg": "media/26.-Atlas-Proekt-226x226-189a9554.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/27.-GIPROGOR_PROEKT-226x71.png": "media/27.-GIPROGOR_PROEKT-226x71-a9285df8.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/28.-PI-Arena-226x84.png": "media/28.-PI-Arena-226x84-64b1dbb4.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/3.-Mosinzhproekt-226x72.png": "media/3.-Mosinzhproekt-226x72-4a046664.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/4.-Verner-Zobek-1-226x226.png": "media/4.-Verner-Zobek-1-226x226-f9d47d79.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/5.-Level-grupp-226x152.png": "media/5.-Level-grupp-226x152-fdefb611.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/6.-ATP-TLP-226x86.png": "media/6.-ATP-TLP-226x86-12b5b040.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/7.-Erkon-tehnolodzhi-226x69.png": "media/7.-Erkon-tehnolodzhi-226x69-858ca8f6.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/8.-Patek-Grupp-226x57.png": "media/8.-Patek-Grupp-226x57-23ed725d.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/9.-Stoun-hedzh-226x68.png": "media/9.-Stoun-hedzh-226x68-0ce28eaf.png",
+    "https://npopis.ru/wp-content/uploads/2021/07/anthony-esau-N2zk9yXjmLA-unsplash-1-min.jpg": "media/anthony-esau-N2zk9yXjmLA-unsplash-1-min-8cfba5e1.jpg",
+    "https://npopis.ru/wp-content/uploads/2021/07/certificate-1.svg": "media/certificate-1-7f9b83d8.svg",
+    "https://npopis.ru/wp-content/uploads/2021/07/compliance-2.svg": "media/compliance-2-a6673a6e.svg",
+    "https://npopis.ru/wp-content/uploads/2021/07/contract-2.svg": "media/contract-2-aad1e70c.svg",
+    "https://npopis.ru/wp-content/uploads/2021/07/folder-2.svg": "media/folder-2-e4fe2559.svg",
+    "https://npopis.ru/wp-content/uploads/2021/07/sketch-1.svg": "media/sketch-1-785315fe.svg",
+    "https://npopis.ru/wp-content/uploads/2021/08/footer-backgraund.jpg": "media/footer-backgraund-c9266df8.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_erkon-1-177x250.jpg": "media/rekomendatelnoe-pismo_erkon-1-177x250-d070cff6.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_etalonproekt-1-177x250.jpg": "media/rekomendatelnoe-pismo_etalonproekt-1-177x250-1053ca47.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_giprogorproekt-1-177x250.jpg": "media/rekomendatelnoe-pismo_giprogorproekt-1-177x250-c4a0f646.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_metropolis-1-177x250.jpg": "media/rekomendatelnoe-pismo_metropolis-1-177x250-ecf7f67f.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_ostozhenka-1-177x250.jpg": "media/rekomendatelnoe-pismo_ostozhenka-1-177x250-3320af68.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_pnkb-1-177x250.jpg": "media/rekomendatelnoe-pismo_pnkb-1-177x250-ce53a8f4.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_smartproekt-1-177x250.jpg": "media/rekomendatelnoe-pismo_smartproekt-1-177x250-dd93fe2e.jpg",
+    "https://npopis.ru/wp-content/uploads/2022/06/rekomendateltnoe-pismo_rezerv-1-177x250.jpg": "media/rekomendateltnoe-pismo_rezerv-1-177x250-6c7a1440.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/1_page-0001-177x250.jpg": "media/1_page-0001-177x250-f72a7e06.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/2_page-0001-177x250.jpg": "media/2_page-0001-177x250-f3a90d85.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/3_page-0001-177x250.jpg": "media/3_page-0001-177x250-b1797dab.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/4_page-0001-177x250.jpg": "media/4_page-0001-177x250-53f4fc20.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/5_page-0001-177x250.jpg": "media/5_page-0001-177x250-ee233dca.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/6_page-0001-177x250.jpg": "media/6_page-0001-177x250-54b5b8f5.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/iso-177x250.jpg": "media/iso-177x250-12ff30cf.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-1-177x250.jpg": "media/sro-iziskaniya-1-177x250-79bca8a6.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-2-177x250.jpg": "media/sro-iziskaniya-2-177x250-1b0764bd.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-1-177x250.jpg": "media/sro-proektirovanie-1-177x250-1954b427.jpg",
+    "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-2-177x250.jpg": "media/sro-proektirovanie-2-177x250-b982c0cd.jpg",
+    "https://npopis.ru/wp-content/uploads/2026/02/3851ef7e-5de5-4300-b677-cb04b4ddb377_rezultat.webp": "media/3851ef7e-5de5-4300-b677-cb04b4ddb377_rezultat-69adab07.webp",
+    "https://npopis.ru/wp-content/uploads/2026/02/566c1cda-c5e3-43f2-9a07-d70631197586_rezultat.webp": "media/566c1cda-c5e3-43f2-9a07-d70631197586_rezultat-d62595f2.webp",
+    "https://npopis.ru/wp-content/uploads/2026/02/9094b777-92db-47e1-b909-39c0ec4d185e_rezultat.webp": "media/9094b777-92db-47e1-b909-39c0ec4d185e_rezultat-cf979785.webp",
+    "https://npopis.ru/wp-content/uploads/2026/02/d35c0374-85c5-4fb6-94b9-10ce39b93515_rezultat.webp": "media/d35c0374-85c5-4fb6-94b9-10ce39b93515_rezultat-70fdcc09.webp",
+    "https://npopis.ru/wp-content/uploads/2026/02/dca63fe5-d582-44a0-9eb6-7b129e1ba055_rezultat.webp": "media/dca63fe5-d582-44a0-9eb6-7b129e1ba055_rezultat-744822e2.webp"
+  },
+  "files": [
+    {
+      "source": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+      "local": "css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+      "bytes": 2393,
+      "sha256": "bc6c8041484009d8bd905ece8b16226dc03ce1e876b53db12dc03c593a938777",
+      "source_sha256": "2799de9ed2340bdd180ed06de5248893c17ffb3451667311f4ca29c5da5f3b8f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+      "local": "css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+      "bytes": 47248,
+      "sha256": "b41fbf0cc77d91f16cf0e44e0b1f4e52ee0bc9d067d2d299f0ed425b2f574a85",
+      "source_sha256": "39ee41db8ff72637b518ae110bb8c66cdf16e1245c4c8be71824462668e9597b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css",
+      "local": "css/jquery.fancybox.min.css",
+      "bytes": 5397,
+      "sha256": "010177bb70d422e67b9f09dcba4962f1e2c4b4750ed47f411f5d80123c9909b0",
+      "source_sha256": "4bce18de486fea257a1a5c9d5477070cec0ca1dff3438e5784161e8a8756da44"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/plugins/fusion-builder/css/fusion-shortcodes.min.css",
+      "local": "css/fusion-shortcodes.min.css",
+      "bytes": 251386,
+      "sha256": "4900243c477e781ca209e4f4781f1964ec0006ec6f33e5d807eaaf0c9e522d47",
+      "source_sha256": "9dd485a0eaef88335745bdb4dbbcf01ff7931157a24db43b2273a11664270a1d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/libs.min.css",
+      "local": "css/libs.min.css",
+      "bytes": 1184,
+      "sha256": "c02cb53cac3297d94e5c23b023233a757f9eb5102e1618facb489433c0ec7459",
+      "source_sha256": "bf1313169f7c72406a7e854d919cd8f89d70b26225fddaa8c5e5042f54dc40b0"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/lightbox.min.css",
+      "local": "css/lightbox.min.css",
+      "bytes": 2448,
+      "sha256": "e538067561b576fb382614004afae71c7511b183417a63e3d934ec63e376adba",
+      "source_sha256": "bb266bc9045aec70d9c2eaf8365d16e0bb9e7d0f20c5a3ed25f2ba70fca854da"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/main.min.css?v=1.44",
+      "local": "css/main.min.css",
+      "bytes": 323673,
+      "sha256": "917ce077f618c7e72cd93cbff38debdee5fb9487f7d033a0112bef54b490a735",
+      "source_sha256": "f62fca90f008458a4364c5a44c906179603fec9e54c369245744b51f27360591"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/rdev.css",
+      "local": "css/rdev.css",
+      "bytes": 16610,
+      "sha256": "a6520ab1c6d7ba990fe4d3a50e1ee3ef4865a94762a7d9380e532848b9db0818",
+      "source_sha256": "9b2dddb4e83f2fa2c2325339926c4e89720ec5c00a00907e15bfc62d06179bb5"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/Arrow.svg",
+      "local": "media/Arrow-d9648f4a.svg",
+      "bytes": 1277,
+      "sha256": "9ebd27090de8c68093700d5c152b25b70ccbac6abe2bbd147f6686926c2a07a2"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/about-company-background.jpg",
+      "local": "media/about-company-background-67979a64.jpg",
+      "bytes": 101504,
+      "sha256": "b0d5d7537745de72f02ae42dadb6648b7abfea6a10db81cd4190c75fd643338d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/arrowleft.png",
+      "local": "media/arrowleft-8bed9b26.png",
+      "bytes": 1817,
+      "sha256": "db9d356644c09a6f491df9208a79e9e9ebb345a2bf3c798e2135ceb4c6db8531"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/arrowright.png",
+      "local": "media/arrowright-91aaa593.png",
+      "bytes": 1809,
+      "sha256": "18e478d57e281a00e0ff5c445b248d8d629dae1b3202de3535fb5c6278e2718c"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/background-contacts.jpg",
+      "local": "media/background-contacts-61f3594b.jpg",
+      "bytes": 74378,
+      "sha256": "132580d6c7ce41e255e0a115b7cbf6af3ccf5d0df819e1b48b3bb45cc9ce3188"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/background-home.jpg",
+      "local": "media/background-home-04d0aff3.jpg",
+      "bytes": 165841,
+      "sha256": "de15118fbcce431c6b2181036108e4af8ad948a79b56506e4601e7765d911c25"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/bg_services.jpg",
+      "local": "media/bg_services-a147d98d.jpg",
+      "bytes": 11999,
+      "sha256": "cbe73117858433049da54d5a8505032976d918f79df727b8abdf734fd2585040"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/bg_services_2.jpg",
+      "local": "media/bg_services_2-655967e0.jpg",
+      "bytes": 48367,
+      "sha256": "7d78cec50fb5be1f274745f446305af04bb15fd6285346d49e0bf6aacc6629d9"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/cancel-modal.svg",
+      "local": "media/cancel-modal-317f739e.svg",
+      "bytes": 1320,
+      "sha256": "33df52fe26e21e0f67870f06ad02d5e2f2d9884ac84da555f3d1c9bd3bba49b8"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/check.svg",
+      "local": "media/check-c319acf9.svg",
+      "bytes": 493,
+      "sha256": "f2e99d5bd7bb3fbd5f58914cafcd73f3efa93fcc9038bb72e0eb59b645aa2207"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/close-123.png",
+      "local": "media/close-123-67990e5f.png",
+      "bytes": 93463,
+      "sha256": "0751bbceae6f7b325aec6f2d8e0027d04c3cfa8b485fc527bcf337086b17caeb"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/email.svg",
+      "local": "media/email-8539e5a6.svg",
+      "bytes": 778,
+      "sha256": "c594dd8841902886c72c5033e2b73718c1a29ec910c638774b87bf30b68ef772"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-adress.svg",
+      "local": "media/icon-adress-3107b03a.svg",
+      "bytes": 4452,
+      "sha256": "8a4db7de5b645abd5fd9e7c89999b946424f2f629cdbc6ac9f1a4054e5ec6a0f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-max.svg",
+      "local": "media/icon-blue-max-4d51c915.svg",
+      "bytes": 1222,
+      "sha256": "ff38943a0d57e01a39c485807efe23e900434af373fd33b388aa0b752b05e974"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-search.svg",
+      "local": "media/icon-blue-search-b67983c1.svg",
+      "bytes": 598,
+      "sha256": "96fdab4328b791608d86aa719b8c850e5c338d83b131ecdf125372af11bfa809"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-telegramm.svg",
+      "local": "media/icon-blue-telegramm-d95a0f0a.svg",
+      "bytes": 821,
+      "sha256": "035e26f49d7677c68d43b6dc1b0ec0bd31a04282c413b5dd358af88fbb5951d1"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-tw.svg",
+      "local": "media/icon-blue-tw-91446ecd.svg",
+      "bytes": 761,
+      "sha256": "a6396d19eb967b98976acb7fe0632b5e15c12e766f9493ac6fb26a818abfdfc7"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-blue-whatsapp.svg",
+      "local": "media/icon-blue-whatsapp-541b1d6f.svg",
+      "bytes": 1591,
+      "sha256": "f1d2309bff2b955b2eb1bd5c2bf2c8113026c567af21a4738d6a6e21a2feb3cc"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-chat.svg",
+      "local": "media/icon-chat-768098af.svg",
+      "bytes": 4528,
+      "sha256": "b792e525aa17149e752fbd18ead9267157bb45a99efca2a9b15f64d39e5d85f8"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-email.svg",
+      "local": "media/icon-email-93682dd7.svg",
+      "bytes": 3884,
+      "sha256": "6a4fa468f3b183667dd8167c37e7f4d63748467d6f291709d4cec0a8f2f974d2"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-handshake.svg",
+      "local": "media/icon-handshake-21bf758d.svg",
+      "bytes": 6392,
+      "sha256": "72577645f5729f3d93c1e8b1434f2189832d2eb1244532a2cf8fe26b84753c0d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-hh.svg",
+      "local": "media/icon-hh-14992565.svg",
+      "bytes": 2133,
+      "sha256": "bd4a550c096ba5115791944d0e1d7d617698982db5235a36e0a68f5300af5b1d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-max-colored.svg",
+      "local": "media/icon-max-colored-9f19f903.svg",
+      "bytes": 1607,
+      "sha256": "2c6491445e33a2ad706ae8e45b881671e450e208e06af4d9357317e99eb4c139"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-max.svg",
+      "local": "media/icon-max-ee984559.svg",
+      "bytes": 9971,
+      "sha256": "fd739345556d3467b85d4c71f312a093d28b10c7caa05b4f0314e09b714c7a05"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-telegramm.svg",
+      "local": "media/icon-telegramm-c55ec9e0.svg",
+      "bytes": 793,
+      "sha256": "c9f18f23e496950158ff8aee445778c94f7ea159fb824f7239bb650000240778"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-telephone.svg",
+      "local": "media/icon-telephone-fec09db2.svg",
+      "bytes": 6112,
+      "sha256": "24e21dca2b12dbaf51c395c728cc006e664f68c95ca3260d768622b4a9728c6b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/icons/icon-watsapp.svg",
+      "local": "media/icon-watsapp-51ddbdb3.svg",
+      "bytes": 1534,
+      "sha256": "6fdbaa498f22292eec9343d2d6e0c913824d775b30847fe5e7da6abbf5d7668d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/loading.gif",
+      "local": "media/loading-3bb9f540.gif",
+      "bytes": 8476,
+      "sha256": "225aa88b6ab02c06222ec9468d62e15fa188e39cdb9431d1f55401ad380753ed"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/phone-call.svg",
+      "local": "media/phone-call-655c1c06.svg",
+      "bytes": 1308,
+      "sha256": "cd45e6899e905f32dd2a3479f87f2e2437b838ff7889155c7c191838508d4d1e"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/plus.png",
+      "local": "media/plus-3112549c.png",
+      "bytes": 263,
+      "sha256": "ef5a6a0899dea2861838a1fad5d3c0a530a46a3ef8107ea04a5b9ff59d1f35a5"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/zkaz.svg",
+      "local": "media/zkaz-e2089e62.svg",
+      "bytes": 918,
+      "sha256": "54679e304fcbd805cbc28cd5d7e4e0a883b9a69b2f973f0042b1a7bf44116ae7"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/zkaz2.svg",
+      "local": "media/zkaz2-98c192c9.svg",
+      "bytes": 922,
+      "sha256": "5ab34fe01829cce82776603ee9fc913c840e606c57597c45294b2962b7891594"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada-Child/assets/js/swiper/swiper-bundle.min.css",
+      "local": "css/swiper-bundle.min.css",
+      "bytes": 18437,
+      "sha256": "10326e8598bed80344e4101263305e244296e08b294b29ede22497b03eea6e8d",
+      "source_sha256": "c94a0dc6cbd7f95a3c4eb8f7959fd8e5905ff0794116c07a5f09bbac7ef9ffd1"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada/assets/css/style.min.css",
+      "local": "css/style.min.css",
+      "bytes": 184555,
+      "sha256": "0cfd7b0280b90e36b8d82bfc58c28735b58b2de281b017f732d5f9a99769d098",
+      "source_sha256": "e6b48997465d5da7ea78cad6d41b8f4db12009acefdb290c26ebf8153470984b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada/assets/images/shadow-bottom.png",
+      "local": "media/shadow-bottom-7cb75186.png",
+      "bytes": 839,
+      "sha256": "084d9d25f1b9eb7e040795e3c4b0c86a0477d3d179511a9680a9cc11b8daa149"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/themes/Avada/assets/images/shadow-top.png",
+      "local": "media/shadow-top-8e01c4d4.png",
+      "bytes": 4465,
+      "sha256": "e6a09d13d79832f7541661d6b18fb3961c5aaaa4bb4da2d0511c6667ec67c89b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2019/07/about-company-backgraund.png",
+      "local": "media/about-company-backgraund-47c79280.png",
+      "bytes": 479875,
+      "sha256": "c512789711ed515c3dee672821e3694f671cfc8dc41687162dbc51cbefe7ac7a"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2019/07/footer-backgraund.jpg",
+      "local": "media/footer-backgraund-a5e13271.jpg",
+      "bytes": 21121,
+      "sha256": "c4a8f0bfc79af49bc8d4a7c8e3ea4f03627986dd16e0779e43767071fc304b04"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/1.-Etalon-Proekt-226x72.jpg",
+      "local": "media/1.-Etalon-Proekt-226x72-480fa35d.jpg",
+      "bytes": 12705,
+      "sha256": "0c677f39fa08fc4e3dba123ebf01778e3b4d32cc8cc1499a116e2877e28f9272"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/10.-buromoscow-2.png",
+      "local": "media/10.-buromoscow-2-81949909.png",
+      "bytes": 1927,
+      "sha256": "dcb3083f31cfeaea3a847d4c56ffd055fdfde7d73acbbfa65a4313526fca6695"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/11.-Ai-Arhiteks-2-226x175.png",
+      "local": "media/11.-Ai-Arhiteks-2-226x175-d19bae38.png",
+      "bytes": 5577,
+      "sha256": "f2e44452dbd44ac2f09e3f27209831a19f24b29daba6ae9549a2384eaaeb1344"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/12.-Donstroĭ-226x228.jpg",
+      "local": "media/12.-Donstroi--226x228-6962dfb0.jpg",
+      "bytes": 8648,
+      "sha256": "56535d8094a089a27b1f5890aac85721b1bdcd362056d76bf4d9572e4500b3b2"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/13.-DSK1-226x226.jpg",
+      "local": "media/13.-DSK1-226x226-b36903a2.jpg",
+      "bytes": 9558,
+      "sha256": "b7b688c8490c6586c953eb5dc82faba236ca5c562f5577031692289b754967ce"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/14.-MPK-226x58.png",
+      "local": "media/14.-MPK-226x58-83e6b760.png",
+      "bytes": 4142,
+      "sha256": "17f0939e83720732b194304522ce7b1ac0b831a9fdb10365e929cdce594959d9"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/15.-Ostozhenka-226x194.jpg",
+      "local": "media/15.-Ostozhenka-226x194-5a7fae66.jpg",
+      "bytes": 7559,
+      "sha256": "df2475180920c74e9cb2ccdfbc9144f92856be8f277b457abdae567249413097"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/16.-FSK-226x181.jpg",
+      "local": "media/16.-FSK-226x181-b6bbf5bb.jpg",
+      "bytes": 14029,
+      "sha256": "67b26dc53ac547f1bae49656317760535321655b3e9736d13c94661b5487604f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/17.-Rezerv-226x68.jpg",
+      "local": "media/17.-Rezerv-226x68-35dcca38.jpg",
+      "bytes": 5682,
+      "sha256": "c2697b150a5a0700867106bb87fe199a20bd9ea77166afe563b28085d04860f2"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/18.-AIK-DPM-226x159.jpg",
+      "local": "media/18.-AIK-DPM-226x159-de9d8c9f.jpg",
+      "bytes": 6424,
+      "sha256": "5f648c1a562b5e9e1d78d595878eacd6063933d1af07326dde31fc69b542f3c0"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/19.-Inzhenernoe-delo-226x192.png",
+      "local": "media/19.-Inzhenernoe-delo-226x192-ddb5b29d.png",
+      "bytes": 6289,
+      "sha256": "5a241105391d02cc4343900e815177083a5683daaf86f0d30fcdde900b8948ca"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/2.-CZimaĭlo-Lyashenko-i-partnery-3-226x226.jpg",
+      "local": "media/2.-CZimai-lo-Lyashenko-i-partnery-3-226x226-b767f4dd.jpg",
+      "bytes": 14313,
+      "sha256": "414a4c21393a95bf624db470fb315e9a57e36f6192912e61c477ceef2b941226"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/20.-Aktika-SV-Proekt-226x45.png",
+      "local": "media/20.-Aktika-SV-Proekt-226x45-efb88b4a.png",
+      "bytes": 4640,
+      "sha256": "d0b01b615f21c2291ce360b0ca3ff473b2e4a0ae03667c75f2b0c9df89362494"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/21.-KTB-ZHB-226x226.jpg",
+      "local": "media/21.-KTB-ZHB-226x226-4703a254.jpg",
+      "bytes": 14032,
+      "sha256": "ec71c5ec0a49744f4780c3b6febb34e5ebc013b894cda07e71eb1df6b2c69b69"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/22.-Atrium-226x38.jpg",
+      "local": "media/22.-Atrium-226x38-eb439be1.jpg",
+      "bytes": 12098,
+      "sha256": "566ff1cc9e55b31bfeeb60b55b1deb145965b08f683438ca420a94d9bb33ba8d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/23.-Smart-Proekt-226x60.png",
+      "local": "media/23.-Smart-Proekt-226x60-47539132.png",
+      "bytes": 7849,
+      "sha256": "d05b495862c2072c10722c257d1fa6291966fe0cde4db68ecc0d071e4884693f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/24.-Finproekt-226x65.jpg",
+      "local": "media/24.-Finproekt-226x65-eaf37d53.jpg",
+      "bytes": 5398,
+      "sha256": "a51d5a222b533b3c7c0824233aab9965ec866979e1752b5a00c6411b1811234b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/25.-Metropolis-226x74.png",
+      "local": "media/25.-Metropolis-226x74-3fb76318.png",
+      "bytes": 8498,
+      "sha256": "0d2e6b92a0a4fb2e476632734d2b95fbb6faeb1b227befb34b2c1c979ac3d678"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/26.-Atlas-Proekt-226x226.jpg",
+      "local": "media/26.-Atlas-Proekt-226x226-189a9554.jpg",
+      "bytes": 16338,
+      "sha256": "97f97705a04ac9cadadc238904cd0d88be121c2384204ba32a863b64237b3d3b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/27.-GIPROGOR_PROEKT-226x71.png",
+      "local": "media/27.-GIPROGOR_PROEKT-226x71-a9285df8.png",
+      "bytes": 9504,
+      "sha256": "9ac54b252359cfc60919f279631f44c9b5ba843db336acf8cdcdcdbd3f1f8b38"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/28.-PI-Arena-226x84.png",
+      "local": "media/28.-PI-Arena-226x84-64b1dbb4.png",
+      "bytes": 10687,
+      "sha256": "1e5da19d5bbfe4bb81fabfd33d86a41da32f94941ded532d1eceaf31b79a2459"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/3.-Mosinzhproekt-226x72.png",
+      "local": "media/3.-Mosinzhproekt-226x72-4a046664.png",
+      "bytes": 3358,
+      "sha256": "3a0558ca9f3dbe5b2ba9741ff5fdccf35459fba329f03666ae21054bf4dd12c6"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/4.-Verner-Zobek-1-226x226.png",
+      "local": "media/4.-Verner-Zobek-1-226x226-f9d47d79.png",
+      "bytes": 4126,
+      "sha256": "bf17691aea799769207e483b2ec3950b566f99e78e21085f28984e9380b31cbb"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/5.-Level-grupp-226x152.png",
+      "local": "media/5.-Level-grupp-226x152-fdefb611.png",
+      "bytes": 3016,
+      "sha256": "10c1b13191aa5ebf083aa87cf99e4ac5ccf4a78e0dbf8a886b0c1296951f595d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/6.-ATP-TLP-226x86.png",
+      "local": "media/6.-ATP-TLP-226x86-12b5b040.png",
+      "bytes": 5604,
+      "sha256": "48b013bc17a1493b65702fdf913ecd45f5af79937b2fb413d447242fe70cdc06"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/7.-Erkon-tehnolodzhi-226x69.png",
+      "local": "media/7.-Erkon-tehnolodzhi-226x69-858ca8f6.png",
+      "bytes": 7042,
+      "sha256": "46aad6448cdd8f4190d18d064a36510f9c1e080fd277ea28d7183f0c45e2066d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/8.-Patek-Grupp-226x57.png",
+      "local": "media/8.-Patek-Grupp-226x57-23ed725d.png",
+      "bytes": 10185,
+      "sha256": "33042635e351c6c3b287ab290da168eb63808cd3c274c620a42ebb7783ace08b"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/9.-Stoun-hedzh-226x68.png",
+      "local": "media/9.-Stoun-hedzh-226x68-0ce28eaf.png",
+      "bytes": 2593,
+      "sha256": "95250758e3a9fea409aea539a3bb58c12a985788048b4e1dad46c64a8963e66a"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/anthony-esau-N2zk9yXjmLA-unsplash-1-min.jpg",
+      "local": "media/anthony-esau-N2zk9yXjmLA-unsplash-1-min-8cfba5e1.jpg",
+      "bytes": 57384,
+      "sha256": "f7aa5e412525f2244fc29f2cc8730893f18df110b5a16f94c262824d0ff946ba"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/certificate-1.svg",
+      "local": "media/certificate-1-7f9b83d8.svg",
+      "bytes": 19402,
+      "sha256": "bd423f27156e277315833ec479c19b30c6c8c9bff94aa9729e8c61bccd35c534"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/compliance-2.svg",
+      "local": "media/compliance-2-a6673a6e.svg",
+      "bytes": 5473,
+      "sha256": "dda5e1526995fc821ba17257e3948dbded93875b722c316053f4f38a38fcbddd"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/contract-2.svg",
+      "local": "media/contract-2-aad1e70c.svg",
+      "bytes": 8933,
+      "sha256": "14c6a3322aea3656cbfc484e4a063d6ffd43eedf72bfaad0f09143fb88934b38"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/folder-2.svg",
+      "local": "media/folder-2-e4fe2559.svg",
+      "bytes": 2512,
+      "sha256": "23c5265245bcf4621d92285b85cea653f7c7faefe0f00402c1a8e5d729552972"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/07/sketch-1.svg",
+      "local": "media/sketch-1-785315fe.svg",
+      "bytes": 6540,
+      "sha256": "8d93da5f9aed37cd7cbb064e2a85b8ae90b6de0665fc3e67098d3663c31276b5"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2021/08/footer-backgraund.jpg",
+      "local": "media/footer-backgraund-c9266df8.jpg",
+      "bytes": 21121,
+      "sha256": "c4a8f0bfc79af49bc8d4a7c8e3ea4f03627986dd16e0779e43767071fc304b04"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_erkon-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_erkon-1-177x250-d070cff6.jpg",
+      "bytes": 27567,
+      "sha256": "a3a82d298c97dda8899d7127f6b999639312ade9fd7a9d35df061eafcf50eee2"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_etalonproekt-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_etalonproekt-1-177x250-1053ca47.jpg",
+      "bytes": 14075,
+      "sha256": "2a86acc8c77e864d7b67b9de4242937d4dbf8e9f0fd5d8bf28214fe29504419f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_giprogorproekt-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_giprogorproekt-1-177x250-c4a0f646.jpg",
+      "bytes": 21529,
+      "sha256": "54fa83f845c59b3d79a21f839c5d5dd5be66b3dccf8620915df8e57ed748a2d4"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_metropolis-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_metropolis-1-177x250-ecf7f67f.jpg",
+      "bytes": 15131,
+      "sha256": "0284884d148d6d7b2225579ecfd6045cdb31b74396086dddb58f8c9d082fd6c3"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_ostozhenka-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_ostozhenka-1-177x250-3320af68.jpg",
+      "bytes": 17055,
+      "sha256": "58bfdba3c47ab531785966b86856255dc054d0099967add8cc4cd38e8cb96b67"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_pnkb-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_pnkb-1-177x250-ce53a8f4.jpg",
+      "bytes": 20426,
+      "sha256": "66ca50cb2d573fc1f2c6fcda24b5bcbf22c90c715d362eb26263e0e48a330fdd"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_smartproekt-1-177x250.jpg",
+      "local": "media/rekomendatelnoe-pismo_smartproekt-1-177x250-dd93fe2e.jpg",
+      "bytes": 19539,
+      "sha256": "4a9c7d2fe47cc71817402a57749144a21b139ce5e47f944cc0a599009bc21619"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendateltnoe-pismo_rezerv-1-177x250.jpg",
+      "local": "media/rekomendateltnoe-pismo_rezerv-1-177x250-6c7a1440.jpg",
+      "bytes": 16512,
+      "sha256": "f5068e3ff8627daac7e217aed0bc8530f15dd98fb840b4aab191cf9bfe86538f"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/1_page-0001-177x250.jpg",
+      "local": "media/1_page-0001-177x250-f72a7e06.jpg",
+      "bytes": 11481,
+      "sha256": "c0069a0f57566bed1de9ec01da6a16e9de41f58b71181b6ccf3284eb5faa379a"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/2_page-0001-177x250.jpg",
+      "local": "media/2_page-0001-177x250-f3a90d85.jpg",
+      "bytes": 19483,
+      "sha256": "139cd694bd1dc58cbe710f65440265804a1d4599160130fb331ccce9248459c5"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/3_page-0001-177x250.jpg",
+      "local": "media/3_page-0001-177x250-b1797dab.jpg",
+      "bytes": 13230,
+      "sha256": "d43c7f40bb2f0b2ad659d7d3854da4d25c331804efd21951533058ee5e216d22"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/4_page-0001-177x250.jpg",
+      "local": "media/4_page-0001-177x250-53f4fc20.jpg",
+      "bytes": 10045,
+      "sha256": "ce098995dfddc00d2e82bfb0144bd4cd7cb4893e99e8dca403ee13e1a65d0bef"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/5_page-0001-177x250.jpg",
+      "local": "media/5_page-0001-177x250-ee233dca.jpg",
+      "bytes": 11788,
+      "sha256": "36caa283f0f65e09759a0def142fe43e408e66f44e74dd4b0d7c6e847b782878"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/6_page-0001-177x250.jpg",
+      "local": "media/6_page-0001-177x250-54b5b8f5.jpg",
+      "bytes": 11798,
+      "sha256": "039bee1eaef645a41b21b485922f85686e6197e1c4a6bc5e4c5a5014898eb0dc"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/iso-177x250.jpg",
+      "local": "media/iso-177x250-12ff30cf.jpg",
+      "bytes": 36281,
+      "sha256": "b55870021a1de7eb2f9066dcf27bf13e96c4ea3c4e3ad2db8d1c5bbb27891cae"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-1-177x250.jpg",
+      "local": "media/sro-iziskaniya-1-177x250-79bca8a6.jpg",
+      "bytes": 25911,
+      "sha256": "8747a6eac97d22d1b9fbefd061ad3898dcd628ba5619b53490c874df96f2e999"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-2-177x250.jpg",
+      "local": "media/sro-iziskaniya-2-177x250-1b0764bd.jpg",
+      "bytes": 19133,
+      "sha256": "ff17c3cf51b0c391125eeff28521e99edca594927b17ca9f01fa95aea383dd9d"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-1-177x250.jpg",
+      "local": "media/sro-proektirovanie-1-177x250-1954b427.jpg",
+      "bytes": 19425,
+      "sha256": "a2df170187c152adffc96e5598ed8744191388c3487569feb07af1251b955605"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-2-177x250.jpg",
+      "local": "media/sro-proektirovanie-2-177x250-b982c0cd.jpg",
+      "bytes": 26046,
+      "sha256": "d378453575c45a0b81424fef2ecd727008fede43f4307280b6b9963c1fd5125e"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2026/02/3851ef7e-5de5-4300-b677-cb04b4ddb377_rezultat.webp",
+      "local": "media/3851ef7e-5de5-4300-b677-cb04b4ddb377_rezultat-69adab07.webp",
+      "bytes": 451080,
+      "sha256": "92b089672756471751ede9c86bd8304af54851c87b10de22dfd2bae4dcb386d8"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2026/02/566c1cda-c5e3-43f2-9a07-d70631197586_rezultat.webp",
+      "local": "media/566c1cda-c5e3-43f2-9a07-d70631197586_rezultat-d62595f2.webp",
+      "bytes": 621372,
+      "sha256": "95c880572fe5c815ce5b879a199919b28dc0715ac864521bcdeeb08f03908c16"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2026/02/9094b777-92db-47e1-b909-39c0ec4d185e_rezultat.webp",
+      "local": "media/9094b777-92db-47e1-b909-39c0ec4d185e_rezultat-cf979785.webp",
+      "bytes": 428382,
+      "sha256": "f968224de612443f8f85507060298d0cf0c3b76f56898a0cd4400efb07500136"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2026/02/d35c0374-85c5-4fb6-94b9-10ce39b93515_rezultat.webp",
+      "local": "media/d35c0374-85c5-4fb6-94b9-10ce39b93515_rezultat-70fdcc09.webp",
+      "bytes": 675448,
+      "sha256": "199fb98b73dcec48b6feae7a6cdf596de184fa00b94e55c0bc64686361c7eb7a"
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2026/02/dca63fe5-d582-44a0-9eb6-7b129e1ba055_rezultat.webp",
+      "local": "media/dca63fe5-d582-44a0-9eb6-7b129e1ba055_rezultat-744822e2.webp",
+      "bytes": 418762,
+      "sha256": "0e0ff009c1dce1466fb05eef8b69d56b05ade91d3360ed062278a169f7c493be"
+    }
+  ],
+  "skipped": [
+    "https://mc.yandex.ru/watch/53905090",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/logo_color.svg",
+    "https://npopis.ru/wp-content/themes/Avada-Child/assets/images/logo_white.svg"
+  ],
+  "not_packaged": [
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_erkon-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_etalonproekt-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_giprogorproekt-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_metropolis-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_ostozhenka-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_pnkb-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendatelnoe-pismo_smartproekt-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2022/06/rekomendateltnoe-pismo_rezerv-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/1_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/2_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/3_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/4_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/5_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/6_page-0001.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/iso.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-iziskaniya-2.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-1.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    },
+    {
+      "source": "https://npopis.ru/wp-content/uploads/2024/01/sro-proektirovanie-2.jpg",
+      "reason": "Only the reference link is used; full-size download is not packaged."
+    }
+  ]
+}

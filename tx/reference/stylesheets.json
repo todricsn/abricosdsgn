@@ -1,0 +1,120 @@
+[
+  {
+    "rel": "stylesheet",
+    "id": "rdev-css",
+    "href": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/rdev.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/rdev.css",
+    "sha256": "c255fa39f00b775b268bdc9c9199387c8c8dc9328b754919672a225876421588",
+    "bytes": 16609,
+    "source_sha256": "9b2dddb4e83f2fa2c2325339926c4e89720ec5c00a00907e15bfc62d06179bb5",
+    "source_bytes": 16559
+  },
+  {
+    "rel": "stylesheet",
+    "id": "contact-form-7-css",
+    "href": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css",
+    "sha256": "2799de9ed2340bdd180ed06de5248893c17ffb3451667311f4ca29c5da5f3b8f",
+    "bytes": 2392,
+    "source_sha256": "2799de9ed2340bdd180ed06de5248893c17ffb3451667311f4ca29c5da5f3b8f",
+    "source_bytes": 2392
+  },
+  {
+    "rel": "stylesheet",
+    "id": "avada-stylesheet-css",
+    "href": "https://npopis.ru/wp-content/themes/Avada/assets/css/style.min.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/style.min.css",
+    "sha256": "18e7eba4d7a7da7492b47a6ff1a26e50f52b8600db90b251d51055431a4b22d4",
+    "bytes": 184554,
+    "source_sha256": "e6b48997465d5da7ea78cad6d41b8f4db12009acefdb290c26ebf8153470984b",
+    "source_bytes": 184534
+  },
+  {
+    "rel": "stylesheet",
+    "id": "child-style-css",
+    "href": "https://npopis.ru/wp-content/cache/autoptimize/css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/autoptimize_single_9702a4618cb8e8863ee42831ed8bddbd.css",
+    "sha256": "ba12e0940c2a302b2c08b9cca3e5f83442de6f2b4d6c69e5d4e035c4861dd117",
+    "bytes": 47247,
+    "source_sha256": "39ee41db8ff72637b518ae110bb8c66cdf16e1245c4c8be71824462668e9597b",
+    "source_bytes": 47877
+  },
+  {
+    "rel": "stylesheet",
+    "id": "fusion-builder-shortcodes-css",
+    "href": "https://npopis.ru/wp-content/plugins/fusion-builder/css/fusion-shortcodes.min.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/fusion-shortcodes.min.css",
+    "sha256": "9dd485a0eaef88335745bdb4dbbcf01ff7931157a24db43b2273a11664270a1d",
+    "bytes": 251385,
+    "source_sha256": "9dd485a0eaef88335745bdb4dbbcf01ff7931157a24db43b2273a11664270a1d",
+    "source_bytes": 251385
+  },
+  {
+    "rel": "stylesheet",
+    "id": "fancybox-css",
+    "href": "https://npopis.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css",
+    "type": "text/css",
+    "media": "screen",
+    "path": "css/jquery.fancybox.min.css",
+    "sha256": "4bce18de486fea257a1a5c9d5477070cec0ca1dff3438e5784161e8a8756da44",
+    "bytes": 5396,
+    "source_sha256": "4bce18de486fea257a1a5c9d5477070cec0ca1dff3438e5784161e8a8756da44",
+    "source_bytes": 5396
+  },
+  {
+    "rel": "stylesheet",
+    "id": "swiper-css-css",
+    "href": "https://npopis.ru/wp-content/themes/Avada-Child/assets/js/swiper/swiper-bundle.min.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/swiper-bundle.min.css",
+    "sha256": "c94a0dc6cbd7f95a3c4eb8f7959fd8e5905ff0794116c07a5f09bbac7ef9ffd1",
+    "bytes": 18436,
+    "source_sha256": "c94a0dc6cbd7f95a3c4eb8f7959fd8e5905ff0794116c07a5f09bbac7ef9ffd1",
+    "source_bytes": 18436
+  },
+  {
+    "rel": "stylesheet",
+    "href": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/libs.min.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/libs.min.css",
+    "sha256": "bf1313169f7c72406a7e854d919cd8f89d70b26225fddaa8c5e5042f54dc40b0",
+    "bytes": 1183,
+    "source_sha256": "bf1313169f7c72406a7e854d919cd8f89d70b26225fddaa8c5e5042f54dc40b0",
+    "source_bytes": 1183
+  },
+  {
+    "rel": "stylesheet",
+    "href": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/main.min.css?v=1.44",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/main.min.css",
+    "sha256": "5fd33fd215b29cc085bafda2a53f2a7e45fc0aea7bd8058ddbd35ea4bf5ad966",
+    "bytes": 323696,
+    "source_sha256": "f62fca90f008458a4364c5a44c906179603fec9e54c369245744b51f27360591",
+    "source_bytes": 323830
+  },
+  {
+    "rel": "stylesheet",
+    "id": "lightbox-css",
+    "href": "https://npopis.ru/wp-content/themes/Avada-Child/assets/css/lightbox.min.css",
+    "type": "text/css",
+    "media": "all",
+    "path": "css/lightbox.min.css",
+    "sha256": "e538067561b576fb382614004afae71c7511b183417a63e3d934ec63e376adba",
+    "bytes": 2448,
+    "source_sha256": "bb266bc9045aec70d9c2eaf8365d16e0bb9e7d0f20c5a3ed25f2ba70fca854da",
+    "source_bytes": 2408
+  }
+]
