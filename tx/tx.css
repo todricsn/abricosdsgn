@@ -6,8 +6,17 @@ html { scroll-behavior: smooth; scroll-padding-top: 120px; }
 .fusion-header-sticky-height { display: none !important; }
 .fusion-logo-link.color { display: none !important; }
 button { cursor: pointer; }
-.about-content ul.subcategory.sub.show { height: auto; }
 :focus-visible { outline: 3px solid #235db5; outline-offset: 4px; }
+#directions .documentation-examples { min-width: 0; }
+#directions .documentation-examples > h2 { display: block; margin: 0 0 16px; color: #303157; font-size: 30px; line-height: 1.2; }
+#documentation p { text-align: left; font-weight: 400; }
+#documentation .documentation-examples__intro { margin: 0 0 28px; color: #303157; font-size: 18px; line-height: 1.5; }
+.documentation-stage { padding: 32px; background: #f1f6f9; overflow-wrap: break-word; }
+.documentation-stage + .documentation-stage { margin-top: 24px; }
+.documentation-stage h3 { margin: 0 0 12px; color: #303157; font-size: 28px; font-weight: 700; line-height: 1.2; }
+#documentation .documentation-stage__name { margin: 0 0 12px; color: #303157; font-size: 20px; font-weight: 700; line-height: 1.35; }
+#documentation .documentation-stage__description { margin: 0; color: #303157; font-size: 17px; line-height: 1.5; }
+#documentation .documentation-stage__status { margin: 24px 0 0; color: #526271; font-size: 15px; line-height: 1.5; }
 .services_slide_project { position: relative; }
 .services_slide_project .item-project { width: 100%; }
 .replica-slide { position: absolute; top: 160px; z-index: 5; display: grid; place-items: center; width: 54px; height: 44px; padding: 8px; border: 0; background: #303157bd; color: #fff; }

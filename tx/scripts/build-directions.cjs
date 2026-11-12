@@ -21,7 +21,6 @@ function validate(directions) {
 }
 
 function linkHome(home, directions) {
-  // shortcut: sidebar entries follow the fixed catalog order; add explicit IDs if editors need to reorder them.
   let cards = 0;
   home = home.replace(/(<a class="adv-link" href=")[^"]+(\"><div class="adv-item" id="direction-(\d+)">)/g, (_, start, end, number) => {
     const direction = directions[Number(number) - 1];
@@ -30,16 +29,6 @@ function linkHome(home, directions) {
     return `${start}directions/${direction.slug}.html${end}`;
   });
   if (cards !== directions.length) throw new Error('Direction cards do not match the content');
-  let entries = 0;
-  home = home.replace(/(num-txt ml">Технологические решения<\/span> <\/span><ul class="subcategory sub">)([\s\S]*?)(<\/ul>)/, (_, start, list, end) => {
-    list = list.replace(/(<span class="num-txt">)(?:<a\b[^>]*>)?([^<]+)(?:<\/a>)?(<\/span>)/g, (_, open, title, close) => {
-      const direction = directions[entries++];
-      if (!direction) throw new Error('Unexpected technology sidebar entry');
-      return `${open}<a class="lnk" href="directions/${direction.slug}.html">${title}</a>${close}`;
-    }).replace(/class="num-content"/g, 'class="num-content block-link"');
-    return start + list + end;
-  });
-  if (entries !== directions.length) throw new Error('Technology sidebar does not match the content');
   return home;
 }
 

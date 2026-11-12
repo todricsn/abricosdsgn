@@ -27,23 +27,6 @@ if (typeof document !== 'undefined') {
       if (gallery) gallery.scrollBy({left: Number(button.dataset.galleryStep) * 414, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
     });
   });
-  document.querySelectorAll('.subcategory.main li').forEach(item => {
-    const list = item.querySelector(':scope > .subcategory.sub');
-    const toggle = item.querySelector(':scope > .num-content');
-    if (!list || !toggle) return;
-    toggle.setAttribute('role', 'button');
-    toggle.setAttribute('tabindex', '0');
-    toggle.setAttribute('aria-expanded', String(list.classList.contains('show')));
-    const expand = () => {
-      const open = list.classList.toggle('show');
-      toggle.classList.toggle('open', open);
-      toggle.setAttribute('aria-expanded', String(open));
-    };
-    toggle.addEventListener('click', expand);
-    toggle.addEventListener('keydown', event => {
-      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); expand(); }
-    });
-  });
   const menu = document.querySelector('#mobile-menu-v2-wrapper');
   const menuToggle = document.querySelector('.replica-menu-toggle');
   if (menu && menuToggle) {

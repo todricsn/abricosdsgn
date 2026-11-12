@@ -28,9 +28,14 @@ test('each direction card opens its matching description rather than the shared 
   }
 });
 
-test('technology sidebar entries open the same descriptions as the main cards', () => {
-  const section = read('index.html').match(/num-txt ml">Технологические решения<\/span> <\/span><ul class="subcategory sub">([\s\S]*?)<\/ul>/)[1];
-  assert.deepEqual([...section.matchAll(/<a class="lnk" href="([^"]+)"/g)].map(link => link[1]), routes);
+test('each detail-page sidebar links to every direction and identifies the current page', () => {
+  const expected = routes.map(route => path.basename(route));
+  for (const route of routes) {
+    const sidebar = read(route).match(/<aside class="direction-sidebar">([\s\S]*?)<\/aside>/)[1];
+    const links = [...sidebar.matchAll(/<a href="([^"]+)"( aria-current="page")?>/g)];
+    assert.deepEqual(links.map(link => link[1]), expected, route);
+    assert.deepEqual(links.filter(link => link[2]).map(link => link[1]), [path.basename(route)], route);
+  }
 });
 
 test('detail pages keep working asset and home-section links under the GitHub project prefix', () => {
