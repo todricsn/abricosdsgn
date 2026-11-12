@@ -27,8 +27,6 @@ button { cursor: pointer; }
 .replica-submit { width: auto !important; height: 48px; margin: 0 !important; padding: 12px 24px !important; border: 0; background: #303157; color: #fff; font-weight: 600; white-space: nowrap; }
 .replica-form-note { margin: 16px 0 0; color: #5c6674; font-size: 12px; line-height: 1.5; }
 .footer-v2__logo img { background: transparent; padding: 0; width: 230px; height: auto; filter: brightness(0) invert(1); }
-.replica-source-note { width: min(1200px, calc(100% - 60px)); margin: 28px auto 0; color: #536477; font-size: 12px; line-height: 1.5; }
-.replica-source-note a { color: inherit; text-decoration: underline; }
 .replica-menu-toggle { display: none; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; background: transparent; color: #303157; }
 .replica-menu-toggle svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.8; }
 @media (max-width: 992px) {
@@ -41,7 +39,6 @@ button { cursor: pointer; }
 }
 @media (max-width: 576px) {
   .fusion-logo .fusion-logo-link img { width: 130px !important; height: 54px !important; }
-  .replica-source-note { width: calc(100% - 20px); }
   .replica-slide { top: 140px; width: 44px; }
   .reference-credit { left: 15px; right: 15px; }
 }
@@ -61,5 +58,4 @@ button { cursor: pointer; }
 .services_slide_project .progect-all__item--img::before,
 .services_slide_project .progect-all__item--img::after { content: none !important; display: none !important; }
 
-.footer-v2__top-menu { flex-wrap: wrap; }
-.footer-v2__top-menu a { display: inline-flex; align-items: center; min-height: 44px; }
+.footer-v2__bottom { padding-top: 40px; }
