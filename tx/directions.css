@@ -10,14 +10,14 @@
 .direction-section { margin-top: 40px; }
 .direction-section ul { margin: 0; padding-left: 22px; }
 .direction-section li { padding-left: 6px; margin-bottom: 12px; }
-.direction-sidebar { background: #f4f7fa; padding: 28px; }
+.direction-sidebar { background: #194ba3; padding: 28px; }
 .direction-sidebar h2 { font-size: 21px; }
 .direction-sidebar ul { list-style: none; margin: 0; padding: 0; }
 .direction-sidebar li + li { margin-top: 8px; }
 .direction-sidebar a { display: flex; align-items: center; min-height: 44px; padding: 10px 0; color: #303157; font-size: 16px; line-height: 1.45; }
 .direction-sidebar a:hover { color: #235db5; text-decoration: underline; text-underline-offset: 4px; }
 .direction-sidebar a[aria-current="page"] { color: #235db5; font-weight: 700; }
-.direction-consultation { margin-top: 40px; padding: 28px; background: #f4f7fa; }
+.direction-consultation { margin-top: 40px; padding: 28px; background: #194ba3; }
 .direction-consultation p { margin: 0 0 24px; }
 .direction-cta { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 20px; background: #303157; color: #fff !important; text-decoration: none; font-weight: 600; }
 .direction-cta:hover { background: #235db5; }

@@ -11,7 +11,7 @@ button { cursor: pointer; }
 #directions .documentation-examples > h2 { display: block; margin: 0 0 16px; color: #303157; font-size: 30px; line-height: 1.2; }
 #documentation p { text-align: left; font-weight: 400; }
 #documentation .documentation-examples__intro { margin: 0 0 28px; color: #303157; font-size: 18px; line-height: 1.5; }
-.documentation-stage { padding: 32px; background: #f1f6f9; overflow-wrap: break-word; }
+.documentation-stage { padding: 32px; background: #194ba3; overflow-wrap: break-word; }
 .documentation-stage + .documentation-stage { margin-top: 24px; }
 .documentation-stage h3 { margin: 0 0 12px; color: #303157; font-size: 28px; font-weight: 700; line-height: 1.2; }
 #documentation .documentation-stage__name { margin: 0 0 12px; color: #303157; font-size: 20px; font-weight: 700; line-height: 1.35; }
@@ -30,7 +30,7 @@ button { cursor: pointer; }
 .replica-request .form-wraper { display: flex; align-items: end; gap: 30px; width: 100%; }
 .replica-field { display: flex; flex: 1; flex-direction: column; min-width: 0; gap: 8px; }
 .replica-field label { color: #303157; font-size: 16px; }
-.replica-field label span { color: #80c6e3; }
+.replica-field label span { color: #194ba3; }
 .replica-field input { width: 100% !important; height: 48px !important; border: 1px solid #d9dce2 !important; padding: 10px 14px !important; color: #303157 !important; background: #fff !important; }
 .replica-submit { width: auto !important; height: 48px; margin: 0 !important; padding: 12px 24px !important; border: 0; background: #303157; color: #fff; font-weight: 600; white-space: nowrap; }
 .replica-form-note { margin: 16px 0 0; color: #5c6674; font-size: 12px; line-height: 1.5; }
@@ -70,3 +70,7 @@ button { cursor: pointer; }
 .services_slide_project .progect-all__item--img::after { content: none !important; display: none !important; }
 
 .footer-v2__bottom { padding-top: 40px; }
+
+#process .about-block-content img { width: 72px; height: 72px; flex: 0 0 72px; object-fit: contain; }
+
+.services_slide_project .progect-all__item--title span { color: #fff !important; }
