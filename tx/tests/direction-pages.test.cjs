@@ -17,7 +17,7 @@ const routes = [
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 
 test('each direction card opens its matching description rather than the shared article', () => {
-  const cards = [...read('index.html').matchAll(/<a class="adv-link" href="([^"]+)"><div class="adv-item" id="direction-\d+"><div class="adv-title">([^<]+)/g)];
+  const cards = [...read('index.html').matchAll(/<a class="direction-card-link" href="([^"]+)"><div class="adv-item" id="direction-\d+"><div class="adv-title">([^<]+)/g)];
   assert.deepEqual(cards.map(card => card[1]), routes);
   for (const card of cards) {
     const page = read(card[1]);

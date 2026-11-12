@@ -22,7 +22,7 @@ function validate(directions) {
 
 function linkHome(home, directions) {
   let cards = 0;
-  home = home.replace(/(<a class="adv-link" href=")[^"]+(\"><div class="adv-item" id="direction-(\d+)">)/g, (_, start, end, number) => {
+  home = home.replace(/(<a class="direction-card-link" href=")[^"]+(\"><div class="adv-item" id="direction-(\d+)">)/g, (_, start, end, number) => {
     const direction = directions[Number(number) - 1];
     if (!direction) throw new Error('Unexpected direction card');
     cards++;

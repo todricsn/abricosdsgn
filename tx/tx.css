@@ -49,6 +49,10 @@ button { cursor: pointer; }
   .fusion-logo .fusion-logo-link img { width: 130px !important; height: 54px !important; }
   .replica-slide { top: 140px; width: 44px; }
 }
+/* The catalog's neutral link class avoids generic advertising filters. */
+@media (max-width: 768px) {
+  .direction-card-link { width: 100%; }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
