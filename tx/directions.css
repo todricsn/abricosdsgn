@@ -1,0 +1,39 @@
+/* Detail pages use the main site's type, colors, header and footer. */
+.direction-main { padding: 0 30px !important; }
+.direction-page { max-width: 1200px; margin: 0 auto; padding: 40px 0 72px; color: #303157; }
+.direction-back { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 24px; color: #235db5; text-decoration: underline; text-underline-offset: 4px; }
+.direction-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 64px; align-items: start; }
+.direction-article { min-width: 0; font-size: 17px; line-height: 1.65; }
+.direction-article h1 { margin: 0 0 24px; color: #303157; font-size: clamp(30px, 3vw, 40px); line-height: 1.18; font-weight: 700; overflow-wrap: break-word; }
+.direction-article h2, .direction-sidebar h2 { margin: 0 0 16px; color: #303157; font-size: 25px; line-height: 1.3; font-weight: 700; }
+.direction-intro { margin: 0; font-size: 19px; line-height: 1.65; }
+.direction-section { margin-top: 40px; }
+.direction-section ul { margin: 0; padding-left: 22px; }
+.direction-section li { padding-left: 6px; margin-bottom: 12px; }
+.direction-sidebar { background: #f4f7fa; padding: 28px; }
+.direction-sidebar h2 { font-size: 21px; }
+.direction-sidebar ul { list-style: none; margin: 0; padding: 0; }
+.direction-sidebar li + li { margin-top: 8px; }
+.direction-sidebar a { display: flex; align-items: center; min-height: 44px; padding: 10px 0; color: #303157; font-size: 16px; line-height: 1.45; }
+.direction-sidebar a:hover { color: #235db5; text-decoration: underline; text-underline-offset: 4px; }
+.direction-sidebar a[aria-current="page"] { color: #235db5; font-weight: 700; }
+.direction-consultation { margin-top: 40px; padding: 28px; background: #f4f7fa; }
+.direction-consultation p { margin: 0 0 24px; }
+.direction-cta { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 20px; background: #303157; color: #fff !important; text-decoration: none; font-weight: 600; }
+.direction-cta:hover { background: #235db5; }
+@media (max-width: 992px) {
+  .direction-layout { grid-template-columns: minmax(0, 1fr) 250px; gap: 32px; }
+  .direction-sidebar { padding: 24px; }
+}
+@media (max-width: 767px) {
+  .direction-main { padding: 0 20px !important; }
+  .direction-page { padding: 24px 0 48px; }
+  .direction-back { margin-bottom: 16px; }
+  .direction-layout { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .direction-article { font-size: 16px; }
+  .direction-intro { font-size: 18px; }
+  .direction-section { margin-top: 32px; }
+  .direction-article h2 { font-size: 23px; }
+  .direction-consultation { padding: 24px; }
+  .direction-cta { width: 100%; box-sizing: border-box; text-align: center; }
+}
