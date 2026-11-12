@@ -44,32 +44,6 @@ if (typeof document !== 'undefined') {
       if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); expand(); }
     });
   });
-  const serviceLink = document.querySelector('.fusion-main-menu .to-service-menu > a');
-  const mega = document.querySelector('.e-cmenu__drop');
-  if (serviceLink && mega) {
-    mega.id = 'services-menu';
-    serviceLink.setAttribute('aria-controls', mega.id);
-    serviceLink.setAttribute('aria-expanded', 'false');
-    serviceLink.addEventListener('keydown', event => {
-      if (event.key !== 'ArrowDown') return;
-      event.preventDefault();
-      mega.classList.add('active');
-      serviceLink.setAttribute('aria-expanded', 'true');
-      mega.querySelector('a')?.focus();
-    });
-    mega.addEventListener('keydown', event => {
-      if (event.key !== 'Escape') return;
-      mega.classList.remove('active');
-      serviceLink.setAttribute('aria-expanded', 'false');
-      serviceLink.focus();
-    });
-    mega.addEventListener('focusout', event => {
-      if (!mega.contains(event.relatedTarget)) {
-        mega.classList.remove('active');
-        serviceLink.setAttribute('aria-expanded', 'false');
-      }
-    });
-  }
   const menu = document.querySelector('#mobile-menu-v2-wrapper');
   const menuToggle = document.querySelector('.replica-menu-toggle');
   if (menu && menuToggle) {
@@ -78,30 +52,12 @@ if (typeof document !== 'undefined') {
       menuToggle.setAttribute('aria-expanded', String(open));
       menuToggle.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
     });
-    menu.querySelectorAll('.toggle-sub-menu').forEach(toggle => {
-      toggle.setAttribute('role', 'button');
-      toggle.setAttribute('tabindex', '0');
-      toggle.setAttribute('aria-label', 'Подразделы');
-      toggle.setAttribute('aria-expanded', 'false');
-      const expand = () => {
-        const item = toggle.closest('li');
-        const open = item.classList.toggle('is-expanded');
-        toggle.setAttribute('aria-expanded', String(open));
-      };
-      toggle.addEventListener('click', expand);
-      toggle.addEventListener('keydown', event => {
-        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); expand(); }
-      });
-    });
     menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
       menu.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
       menuToggle.setAttribute('aria-label', 'Открыть меню');
     }));
   }
-  document.querySelectorAll('[data-contact-button]').forEach(button => button.addEventListener('click', () => {
-    document.querySelector('#contact').scrollIntoView();
-  }));
   document.querySelector('.replica-request')?.addEventListener('submit', event => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -109,15 +65,5 @@ if (typeof document !== 'undefined') {
     if (!form.reportValidity()) return;
     const data = new FormData(form);
     location.href = buildRequestMailto(String(data.get('name') || ''), String(data.get('phone') || ''));
-  });
-  const search = document.querySelector('#replica-search');
-  document.querySelectorAll('[data-open-search]').forEach(button => button.addEventListener('click', () => search.showModal()));
-  document.querySelector('.replica-search-form')?.addEventListener('submit', event => {
-    event.preventDefault();
-    const query = new FormData(event.currentTarget).get('query').trim().toLocaleLowerCase('ru');
-    if (!query) return;
-    const result = [...document.querySelectorAll('#main h1,#main h2,#main h3,#main h4,.adv-title')].find(heading => heading.textContent.toLocaleLowerCase('ru').includes(query));
-    if (result) { search.close(); result.scrollIntoView(); }
-    else document.querySelector('#search-status').textContent = 'На этой странице ничего не найдено. Попробуйте другое название.';
   });
 }

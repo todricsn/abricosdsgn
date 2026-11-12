@@ -26,29 +26,16 @@ button { cursor: pointer; }
 .replica-field input { width: 100% !important; height: 48px !important; border: 1px solid #d9dce2 !important; padding: 10px 14px !important; color: #303157 !important; background: #fff !important; }
 .replica-submit { width: auto !important; height: 48px; margin: 0 !important; padding: 12px 24px !important; border: 0; background: #303157; color: #fff; font-weight: 600; white-space: nowrap; }
 .replica-form-note { margin: 16px 0 0; color: #5c6674; font-size: 12px; line-height: 1.5; }
-.footer-v2__logo img { background: #fff; padding: 6px 10px; width: 230px; height: auto; }
+.footer-v2__logo img { background: transparent; padding: 0; width: 230px; height: auto; filter: brightness(0) invert(1); }
 .replica-source-note { width: min(1200px, calc(100% - 60px)); margin: 28px auto 0; color: #536477; font-size: 12px; line-height: 1.5; }
 .replica-source-note a { color: inherit; text-decoration: underline; }
 .replica-menu-toggle { display: none; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; background: transparent; color: #303157; }
 .replica-menu-toggle svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.8; }
-#replica-search { width: min(560px, calc(100% - 40px)); max-height: calc(100dvh - 40px); border: 0; padding: 32px; color: #303157; background: #fff; }
-#replica-search::backdrop { background: #18233db3; }
-.replica-dialog-close { text-align: right; }
-.replica-dialog-close button { border: 0; background: transparent; color: inherit; font-size: 32px; line-height: 1; }
-.replica-search-form label { display: block; margin: 16px 0; font-size: 24px; font-weight: 600; }
-.replica-search-form input { width: 100%; min-height: 48px; padding: 12px; border: 1px solid #b5c2d1; }
-.replica-search-form button { margin-top: 16px; padding: 12px 24px; border: 0; background: #303157; color: #fff; }
-#search-status { margin: 16px 0 0; }
-.fusion-header-wrapper:has(.to-service-menu:hover) .e-cmenu__drop,
-.e-cmenu__drop:hover, .e-cmenu__drop:focus-within, .e-cmenu__drop.active { display: block; opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(-50%) scale(1); }
-.fusion-main-menu:focus-within { overflow: visible !important; }
-.fusion-main-menu li:focus-within > .sub-menu { display: block; opacity: 1; visibility: visible; }
 @media (max-width: 992px) {
   html { scroll-padding-top: 100px; }
   .fusion-logo .fusion-logo-link img { width: 200px !important; height: 64px !important; }
   .replica-menu-toggle { display: inline-flex; }
   .mobile-menu-v2-wrapper.is-open { display: block !important; visibility: visible !important; opacity: 1 !important; max-height: calc(100dvh - 100px); overflow: auto; }
-  .mobile-menu-v2 li.is-expanded > .sub-menu { display: block !important; }
   .replica-request .form-wraper { flex-direction: column; align-items: stretch; }
   .replica-field { width: 100%; }
 }
@@ -63,9 +50,16 @@ button { cursor: pointer; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
 
-button.blue-icon { border: 0; padding: 0; box-shadow: none; }
 
 @media (max-width: 360px) {
   .head-container-rt__v2 { width: 0; min-width: 0; }
   .head-modal-btn { display: none; }
 }
+
+/* Project previews stay static on hover; the separate slider buttons remain interactive. */
+.services_slide_project .progect-all__item--link { pointer-events: none; cursor: default; }
+.services_slide_project .progect-all__item--img::before,
+.services_slide_project .progect-all__item--img::after { content: none !important; display: none !important; }
+
+.footer-v2__top-menu { flex-wrap: wrap; }
+.footer-v2__top-menu a { display: inline-flex; align-items: center; min-height: 44px; }
