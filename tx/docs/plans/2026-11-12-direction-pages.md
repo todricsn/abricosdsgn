@@ -32,10 +32,12 @@
 - [x] Add editable original service content and a minimal deterministic static generator; update all seven cards and corresponding sidebar links.
 - [x] Add scoped responsive detail-page styles, generate the pages, run the full native test suite and local link checks.
 - [x] Check the main catalog and detail pages in the browser on desktop/mobile; fix material issues and request a fresh code review.
-- [ ] Document the regeneration command, commit/push, confirm Pages deployment and synchronize the canonical checkout.
+- [x] Document the regeneration command, commit/push, confirm Pages deployment and synchronize the canonical checkout.
 
 ## Execution notes
 
 The prior removal of all five project captions was completed and pushed in commit `3b726d5` before this feature. The current checkout is reused per the standing publication workflow. No new approval is needed for the already requested static pages.
 
 Eight native tests pass after the red/green cycle. Fresh review found metadata replacement-dollar expansion and missing/null slug coercion; both were reproduced with failing cases and fixed. Browser checks confirmed card/sidebar navigation, mobile menu return, all seven pages at 375px, additional 320px/769px checks, no overflow or broken images and no captured console errors. Current shared typography, blueprint background, gradients and header/footer are preserved to match the approved site.
+
+Release verification: commit `78c497b` deployed successfully via GitHub Pages run `43207522478`; the public education page matched the generated HTML byte for byte. The canonical checkout was synchronized and clean.
