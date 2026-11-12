@@ -9,8 +9,6 @@ button { cursor: pointer; }
 :focus-visible { outline: 3px solid #235db5; outline-offset: 4px; }
 .services_slide_project { position: relative; }
 .services_slide_project .item-project { width: 100%; }
-.services_slide_project .progect-all__item--title { position: relative; padding-bottom: 40px; }
-.reference-credit { position: absolute; left: 24px; right: 24px; bottom: 12px; font-size: 11px; line-height: 1.3; font-weight: 400; text-transform: none; color: #fff; }
 .replica-slide { position: absolute; top: 160px; z-index: 5; display: grid; place-items: center; width: 54px; height: 44px; padding: 8px; border: 0; background: #303157bd; color: #fff; }
 .replica-prev { left: 15px; }
 .replica-next { right: 15px; }
@@ -40,7 +38,6 @@ button { cursor: pointer; }
 @media (max-width: 576px) {
   .fusion-logo .fusion-logo-link img { width: 130px !important; height: 54px !important; }
   .replica-slide { top: 140px; width: 44px; }
-  .reference-credit { left: 15px; right: 15px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
