@@ -6,6 +6,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 120px; }
 .fusion-header-sticky-height { display: none !important; }
 .fusion-logo-link.color { display: none !important; }
 button { cursor: pointer; }
+.about-content ul.subcategory.sub.show { height: auto; }
 :focus-visible { outline: 3px solid #235db5; outline-offset: 4px; }
 .services_slide_project { position: relative; }
 .services_slide_project .item-project { width: 100%; }
