@@ -1,3 +1,7 @@
+function sceneShift(top, height, viewportHeight) {
+  return Math.max(-0.5, Math.min(0.5, (viewportHeight - top) / (viewportHeight + height) - 0.5));
+}
+
 'use strict';
 
 function wrapProjectIndex(index, count) {
@@ -10,9 +14,24 @@ function buildRequestMailto(name, phone) {
   return `mailto:abricos-proekt@mail.ru?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
-if (typeof module !== 'undefined') module.exports = {wrapProjectIndex, buildRequestMailto};
+if (typeof module !== 'undefined') module.exports = {wrapProjectIndex, buildRequestMailto, sceneShift};
 
 if (typeof document !== 'undefined') {
+  const scene = document.querySelector('.services-scene');
+  if (scene) {
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    let pending = false;
+    const updateScene = () => {
+      pending = false;
+      const bounds = scene.getBoundingClientRect();
+      scene.style.setProperty('--scene-shift', reducedMotion.matches ? 0 : sceneShift(bounds.top, bounds.height, innerHeight));
+    };
+    const scheduleScene = () => { if (!pending) { pending = true; requestAnimationFrame(updateScene); } };
+    addEventListener('scroll', scheduleScene, {passive: true});
+    addEventListener('resize', scheduleScene);
+    reducedMotion.addEventListener('change', scheduleScene);
+    updateScene();
+  }
   const slides = [...document.querySelectorAll('[data-project-slide]')];
   let projectIndex = 0;
   document.querySelectorAll('[data-project-step]').forEach(button => {

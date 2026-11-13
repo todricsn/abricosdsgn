@@ -15,3 +15,11 @@ test('request email preserves Cyrillic and punctuation without adding URL fields
   assert.equal([...url.searchParams].length, 2);
   assert.equal(url.hash, '');
 });
+
+test('construction scene scroll progress is centered and bounded', () => {
+  const {sceneShift} = require('../replica.js');
+  assert.equal(sceneShift(800, 400, 800), -0.5);
+  assert.equal(sceneShift(200, 400, 800), 0);
+  assert.equal(sceneShift(-400, 400, 800), 0.5);
+  assert.equal(sceneShift(-2000, 400, 800), 0.5);
+});

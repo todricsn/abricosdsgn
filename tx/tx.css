@@ -78,6 +78,12 @@ button { cursor: pointer; }
 /* Keep the supplied logo canvas out of the header and footer layout. */
 .fusion-logo-link img { mix-blend-mode: multiply; }
 .footer-v2__logo img { filter: none; }
-body:not(.home) { animation: drawing-drift 28s ease-in-out infinite alternate; }
-@keyframes drawing-drift { from { background-position: center 0; } to { background-position: center 100px; } }
-@media (prefers-reduced-motion: reduce) { body:not(.home) { animation: none; } }
+#directions { flex-wrap: wrap; }
+.services-scene { position: relative; flex: 0 0 100%; height: clamp(350px, 48vw, 680px); overflow: hidden; margin-top: 40px; background: #f3f3f3; isolation: isolate; }
+.services-scene__layer { position: absolute; left: 0; bottom: 0; width: 100%; max-width: none; height: auto; pointer-events: none; transform-origin: bottom center; }
+.services-scene__layer--1 { z-index: 4; }
+.services-scene__layer--2 { z-index: 3; width: 32%; transform: translateY(calc(var(--scene-shift, 0) * 220px)) scale(1.12); }
+.services-scene__layer--3 { z-index: 2; transform: translateY(calc(var(--scene-shift, 0) * 110px)) scale(1.06); }
+.services-scene__layer--4 { z-index: 1; transform: translateY(calc(var(--scene-shift, 0) * 220px)) scale(1.12); }
+@media (max-width: 576px) { .services-scene__layer:not(.services-scene__layer--2) { width: 180%; left: -65%; } .services-scene__layer--2 { width: 45%; } }
+@media (prefers-reduced-motion: reduce) { .services-scene__layer { transform: none; } }
