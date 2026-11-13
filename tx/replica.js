@@ -1,8 +1,9 @@
+'use strict';
+
 function sceneShift(top, height, viewportHeight) {
   return Math.max(-0.5, Math.min(0.5, (viewportHeight - top) / (viewportHeight + height) - 0.5));
 }
 
-'use strict';
 
 function wrapProjectIndex(index, count) {
   return count ? ((index % count) + count) % count : 0;
