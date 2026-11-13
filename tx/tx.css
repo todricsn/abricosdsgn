@@ -77,7 +77,7 @@ button { cursor: pointer; }
 
 /* Keep the supplied logo canvas out of the header and footer layout. */
 .fusion-logo-link img { mix-blend-mode: multiply; }
-.footer-v2__logo img { mix-blend-mode: screen; }
+.footer-v2__logo img { filter: none; }
 body:not(.home) { animation: drawing-drift 28s ease-in-out infinite alternate; }
 @keyframes drawing-drift { from { background-position: center 0; } to { background-position: center 100px; } }
 @media (prefers-reduced-motion: reduce) { body:not(.home) { animation: none; } }
