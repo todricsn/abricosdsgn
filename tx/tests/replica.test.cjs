@@ -9,7 +9,7 @@ test('project navigation wraps both ends and tolerates an empty gallery', () => 
 });
 test('request email preserves Cyrillic and punctuation without adding URL fields', () => {
   const url = new URL(buildRequestMailto('  Иван & Анна?  ', '+7 911 123-45-67#доб.8'));
-  assert.equal(url.pathname, 'abricos-design@mail.ru');
+  assert.equal(url.pathname, 'abricos-proekt@mail.ru');
   assert.equal(url.searchParams.get('body'), 'Имя: Иван & Анна?\nТелефон: +7 911 123-45-67#доб.8\n\nОписание объекта:\n');
   assert.equal(url.searchParams.get('subject'), 'Запрос на разработку технологических решений');
   assert.equal([...url.searchParams].length, 2);

@@ -11,7 +11,7 @@ button { cursor: pointer; }
 #directions .documentation-examples > h2 { display: block; margin: 0 0 16px; color: #303157; font-size: 30px; line-height: 1.2; }
 #documentation p { text-align: left; font-weight: 400; }
 #documentation .documentation-examples__intro { margin: 0 0 28px; color: #303157; font-size: 18px; line-height: 1.5; }
-.documentation-stage { padding: 32px; background: #194ba3; overflow-wrap: break-word; }
+.documentation-stage { padding: 32px; background: #f1f6f9; overflow-wrap: break-word; }
 .documentation-stage + .documentation-stage { margin-top: 24px; }
 .documentation-stage h3 { margin: 0 0 12px; color: #303157; font-size: 28px; font-weight: 700; line-height: 1.2; }
 #documentation .documentation-stage__name { margin: 0 0 12px; color: #303157; font-size: 20px; font-weight: 700; line-height: 1.35; }
@@ -74,3 +74,10 @@ button { cursor: pointer; }
 #process .about-block-content img { width: 72px; height: 72px; flex: 0 0 72px; object-fit: contain; }
 
 .services_slide_project .progect-all__item--title span { color: #fff !important; }
+
+/* Keep the supplied logo canvas out of the header and footer layout. */
+.fusion-logo-link img { mix-blend-mode: multiply; }
+.footer-v2__logo img { mix-blend-mode: screen; }
+body:not(.home) { animation: drawing-drift 28s ease-in-out infinite alternate; }
+@keyframes drawing-drift { from { background-position: center 0; } to { background-position: center 100px; } }
+@media (prefers-reduced-motion: reduce) { body:not(.home) { animation: none; } }

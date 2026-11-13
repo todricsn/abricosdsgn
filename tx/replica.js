@@ -7,7 +7,7 @@ function wrapProjectIndex(index, count) {
 function buildRequestMailto(name, phone) {
   const subject = 'Запрос на разработку технологических решений';
   const body = `Имя: ${name.trim()}\nТелефон: ${phone.trim()}\n\nОписание объекта:\n`;
-  return `mailto:abricos-design@mail.ru?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  return `mailto:abricos-proekt@mail.ru?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 if (typeof module !== 'undefined') module.exports = {wrapProjectIndex, buildRequestMailto};

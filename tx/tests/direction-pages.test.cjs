@@ -56,7 +56,7 @@ test('detail pages keep working asset and home-section links under the GitHub pr
     }
     assert.ok(page.includes('href="../index.html#contact"'));
     assert.ok(page.includes('href="tel:+79119133030"'));
-    assert.ok(page.includes('href="mailto:abricos-design@mail.ru"'));
+    assert.ok(page.includes('href="mailto:abricos-proekt@mail.ru"'));
     assert.equal((page.match(/aria-current="page"/g) || []).length, 1);
   }
 });
