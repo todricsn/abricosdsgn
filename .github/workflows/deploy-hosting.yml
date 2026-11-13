@@ -1,0 +1,35 @@
+name: Publish abricos-proekt.ru
+
+on:
+  push:
+    branches: [main]
+    paths: ['tx/**', 'scripts/deploy_hosting.py', '.github/workflows/deploy-hosting.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: abricos-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Validate site and deployment
+        run: |
+          node tx/scripts/build-directions.cjs
+          node --test tx/tests/*.test.cjs
+          python3 -m unittest discover -s scripts -p 'test_deploy_hosting.py'
+      - name: Upload public files over FTPS
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
+        run: python3 scripts/deploy_hosting.py
+      - name: Verify HTTPS
+        run: curl --fail --silent --show-error --retry 3 https://abricos-proekt.ru/ --output /dev/null
