@@ -135,5 +135,5 @@ a:hover { color: var(--brand-ink); }
 
 #reference-proof-1 .services-slide-block-letter { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; overflow: visible; padding: 0; margin: 0; }
 #reference-proof-1 .services-slide-block-letter > div { width: auto; min-width: 0; margin: 0; }
-#reference-proof-1 .services-slide-block-letter img { display: block; width: 100%; height: auto; max-width: none; max-height: none; }
+#reference-proof-1 .services-slide-block-letter img { display: block; width: 100% !important; height: auto !important; max-width: none !important; max-height: none !important; }
 @media (max-width: 600px) { #reference-proof-1 .services-slide-block-letter { grid-template-columns: 1fr; gap: 24px; } }
