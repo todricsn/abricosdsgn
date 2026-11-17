@@ -5,15 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
-const routes = [
-  'directions/education.html',
-  'directions/public-offices.html',
-  'directions/pools.html',
-  'directions/food-retail.html',
-  'directions/parking.html',
-  'directions/vertical-transport.html',
-  'directions/production.html',
-];
+const routes = ['public-offices', 'healthcare', 'education', 'production', 'logistics', 'transport', 'agriculture'].map(slug => `directions/${slug}.html`);
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 
 test('each direction card opens its matching description rather than the shared article', () => {
@@ -78,7 +70,7 @@ test('the builder escapes editable copy and produces identical output when repea
   });
   const {buildDirections} = require('../scripts/build-directions.cjs');
   buildDirections(folder);
-  const file = path.join(folder, 'directions/education.html');
+  const file = path.join(folder, routes[0]);
   const page = fs.readFileSync(file, 'utf8');
   assert.ok(page.includes('Школа &lt;script&gt;alert(&quot;x&quot;)&lt;/script&gt;'));
   assert.ok(page.includes('Описание &quot;объекта&quot; &amp; &lt;оборудования&gt;'));
@@ -106,7 +98,7 @@ test('dollar tokens in editable metadata stay literal rather than injecting sour
     data[0].summary = "Описание $` и $' и $&";
   });
   require('../scripts/build-directions.cjs').buildDirections(folder);
-  const page = fs.readFileSync(path.join(folder, 'directions/education.html'), 'utf8');
+  const page = fs.readFileSync(path.join(folder, routes[0]), 'utf8');
   assert.ok(page.includes('<title>Название $&amp; — Абрикос</title>'));
   assert.ok(page.includes('<meta name="description" content="Описание $` и $&#39; и $&amp;">'));
 });

@@ -137,3 +137,31 @@ a:hover { color: var(--brand-ink); }
 #reference-proof-1 .services-slide-block-letter > div { width: auto; min-width: 0; margin: 0; }
 #reference-proof-1 .services-slide-block-letter img { display: block; width: 100% !important; height: auto !important; max-width: none !important; max-height: none !important; }
 @media (max-width: 600px) { #reference-proof-1 .services-slide-block-letter { grid-template-columns: 1fr; gap: 24px; } }
+
+/* Client-supplied descriptions keep long copy readable without widening the grid. */
+#top .client-intro h1 { font-size: clamp(28px, 3vw, 42px); line-height: 1.15; overflow-wrap: anywhere; }
+#top .client-intro p, .client-article p, .stage-copy p, .stage-copy li { font-size: 17px; line-height: 1.65; font-weight: 400; text-align: left; }
+#directions .directions-intro { font-size: 17px; line-height: 1.6; font-weight: 400; margin-bottom: 28px; }
+#directions .adv-content ul { padding-left: 20px; margin: 12px 0 0; }
+#directions .adv-content li { font-size: 16px; line-height: 1.55; font-weight: 400; margin-bottom: 8px; }
+#documentation { min-width: 0; }
+#documentation .documentation-stage h2 { font-size: 30px; margin-top: 0; }
+#documentation .documentation-stage h3 { font-size: 21px; line-height: 1.35; }
+#documentation .documentation-stage > p { font-size: 17px; line-height: 1.65; font-weight: 400; }
+.stage-copy { margin: 24px 0; border-top: 1px solid #dedbd8; padding-top: 20px; }
+.stage-copy summary { cursor: pointer; font-size: 17px; font-weight: 600; padding: 8px 0; }
+.stage-copy summary:focus-visible { outline: 2px solid #242424; outline-offset: 4px; }
+.stage-copy h3 { margin-top: 28px; }
+.downloads-section { max-width: 1200px; margin: 0 auto 48px; padding: 40px 32px; border-top: 1px solid #dedbd8; }
+.downloads-section h2 { font-size: 30px; margin: 0 0 16px; }
+.downloads-section p { font-size: 17px; font-weight: 400; line-height: 1.6; text-align: left; }
+.downloads-empty { color: #626262; }
+@media(max-width:768px) { .downloads-section { padding: 32px 20px; } #documentation .documentation-stage { padding: 24px; } }
+#directions .direction-card-link { display: block; margin: 0 0 20px; }
+#directions .adv-item { height: auto !important; min-height: 0; padding: 24px !important; margin: 0 !important; border: 1px solid #dedbd8; box-shadow: none; }
+#directions .adv-title { position: static !important; display: block; height: auto !important; margin: 0 0 12px !important; padding: 0 !important; width: auto !important; background: transparent !important; line-height: 1.4; }
+#directions .adv-content { display: block !important; position: static !important; height: auto !important; padding: 0 !important; margin: 0 !important; }
+#directions .adv-content ul { display: block; position: static; }
+#directions .directions-intro { text-align: left; }
+#directions .adv-content { width: 100% !important; border: 0 !important; box-shadow: none !important; background: transparent !important; }
+#directions .adv-content ul { width: auto; box-shadow: none; }
